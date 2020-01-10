@@ -1,0 +1,3 @@
+Q: how to get "file explorer" type directory view?
+A: "COMMAND" + "SPACE", then enter "dir"
+
