@@ -6,3 +6,6 @@ A: "COMMAND" + "SPACE",
     
 HOW to set up Python on MAC OS
 https://opensource.com/article/19/5/python-3-default-mac
+
+
+brew install pyenv
