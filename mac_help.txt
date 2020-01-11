@@ -1,3 +1,8 @@
 Q: how to get "file explorer" type directory view?
-A: "COMMAND" + "SPACE", then enter "dir"
-
+A: "COMMAND" + "SPACE", 
+    type "dir"and hit "return/enter". This will open a "finder" window
+    Go -> Go to folder -> /Users/khafifa/    
+    this will open all files in khafifa/ in finder
+    
+HOW to set up Python on MAC OS
+https://opensource.com/article/19/5/python-3-default-mac
