@@ -1,14 +1,2 @@
-COMP:  Categorical Feature Encoding Challenge II
-Binary classification, with every feature a categorical (and interactions!)
-https://www.kaggle.com/c/cat-in-the-dat-ii
-
-2020.01.10 
-file = submission_meow.csv 
-score = 0.78593     
-position = 43/176
-nb: https://www.kaggle.com/zurman/let-s-tickle-the-cat-meow?scriptVersionId=26633610
-    https://www.kaggle.com/zurman/let-s-tickle-the-cat-meow/edit
-downloaded nb: "Let's tickle the cat -Meow.ipynb"
-copied from: https://www.kaggle.com/nandhuelan/let-s-tickle-the-cat-meow
 
              
