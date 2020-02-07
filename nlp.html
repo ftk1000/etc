@@ -1,0 +1,1881 @@
+<!--META http-equiv="content-type" content="text/html; charset=windows-1252"-->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<html>
+<TITLE>NLP_bookmarks</TITLE>
+
+C:\_PyNotes\DL_Keras_TF\TensorFlow-Tutorials-master\TensorFlow-Tutorials-master<br>
+C:\_PyNotes\NLP\CNN_W2V<br>
+NLP Challenge: "чайнику чайником били по чайнику", "Косой косой косил косой косой." <br>
+
+<a href="https://www.youtube.com/watch?v=5hOZ8wQ9Ka4"> Steve Job's philosophy  </A> |<br>
+<a href="https://github.com/ftk1000/tools/blob/master/GIT_COMMANDS.txt"> Git Commands </A> |<br>
+
+<a href="https://pnoiman.github.io/etc/div_stocks.txt">pnoiman.github.io/etc/div_stocks.txt</a> | <br>
+https://pnoiman.github.io/etc/div_stocks.txt <br>
+
+<H1>NLP_bookmarks</H1>
+yandexdataschool/nlp_course<br>
+ODS #audio_and_speech: 
+https://app.slack.com/client/T040HKJE3/CH4JPJ4AD/thread/C04N3UMSL-1571514472.329900 <br><br>
+
+=================================<br>
+
+<a href="#Transformers/BERT">Transformers/BERT</a> |
+<a href="#Punctuation">Punctuation</a> |
+<a href="#SENTIMENT_ANALYSIS">SENTIMENT_ANALYSIS</a> |
+<a href="#TEXT_Summarization">TEXT_Summarization</a> |
+<a href="#NLU_SUMMARY">NLU_SUMMARY</a> |
+<a href="#STANFORD_NLP">STANFORD_NLP</a> |
+<a href="#NER_PyTextRank">NER_PyTextRank</a> |
+<a href="#EMBEDDING_EMBEDDING">EMBEDDING_EMBEDDING</a> |
+<a href="#Allen_NLP">Allen_NLP</a> |
+<a href="#CLIP_NLTK">CLIP_NLTK</a> |
+<a href="#Text_Classf">Text_Classf</a> |
+<p>
+<a href="#NLP_VIDEOS">NLP_VIDEOS</a> |
+<a href="#YandexDataSchool">YandexDataSchool</a> |
+<a href="#YandexNLP_2018">YandexNLP_2018</a> |
+<a href="#YandexNLP_2019">YandexNLP_2019</a> |
+<a href="#KAGGLE">KAGGLE</a> |
+<a href="#KAGGLE_CURRENT_COMP">KAGGLE_CURRENT_COMP</a> |
+<a href="#CLASS">CLASS</a> |
+<a href="#Research_Google">Research_Google</a> |
+<a href="#udacity">UDACITY</a> |
+<p>
+
+<a href="https://ftk1000.github.io/NLP_Demos/">ftk1000/NLP_Demos</A> |
+<a href="https://www.analyticsvidhya.com/blog/2019/08/complete-list-important-frameworks-nlp/?utm_campaign=NLP%20News&utm_medium=email&utm_source=Revue%20newsletter"> NLP Frameworks </a> |
+
+
+<a href="#GANS">GANS</a> |
+<a href="#CONFERENCE">CONFERENCE</a> |
+<a href="#StyleTransfer">StyleTransfer</a> |
+<a href="#CNN">CNN</a> |
+<a href="#RNN_LSTM">RNN_LSTM</a> |
+<a href="#TF2">TF2</a> |
+<a href="#KERAS">KERAS</a> |
+<a href="#CHAT_MINING">CHAT_MINING</a> |
+<a href="#TopicModeling">TopicModeling</a> |
+<a href="#RE">RE</a> |
+<a href="#HABR">HABR</a> |
+<a href="#NN_Theory">NN_Theory</a> |
+<a href="#VAE">VAE</a> |
+<a href="#SALARY">SALARY</a> |
+<a href="#DATASETS">DATASETS</a> |
+<a href="#DOCS_BOUND_DETECTION__COMP">DOCS_BOUND_DETECTION__COMP</a> |
+<a href="#GPUGPU">GPUGPU</a> |
+<a href="#PYPY">PYPY</a> |
+<a href="#CRF">CRF</a> |
+
+
+
+ 
+
+
+
+
+ 
+ 
+<hr>
+<hr>
+<a name="Transformers/BERT">
+<div id="Transformers/BERT">
+<p> Transformers/BERT:<br>
+<a href="https://arxiv.org/abs/1810.04805"> 
+"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", by
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova. 2019.05
+ </A> |<br>
+<a href="http://mccormickml.com/2019/11/11/bert-research-ep-1-key-concepts-and-sources/">
+Chris McCormick blog post on BERT </A> |<br>
+<a href="https://www.youtube.com/channel/UCoRX98PLOsaN8PtekB9kWrw/videos"> ChrisMcCormickAI Videos </A> |<br>
+
+<a href="https://www.youtube.com/watch?v=FKlPCK1uFrc&feature=youtu.be"> Chris McCormick video on BERT Ep1 </A> |<br>
+<a href="https://www.youtube.com/watch?v=zJW57aCBCTk"> Chris McCormick video on BERT Ep2</A> |<br>
+<a href="https://www.youtube.com/watch?v=x66kkDnbzi4"> Chris McCormick video on BERT Ep3 p1</A> |<br>
+<a href="https://www.youtube.com/watch?v=Hnvb9b7a_Ps"> Chris McCormick video on BERT Ep3 p2</A> |<br>
+<a href="https://www.youtube.com/watch?v=_eSGWNqKeeY"> Chris McCormick video on BERT Document Classification </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href="https://towardsdatascience.com/bert-text-classification-in-3-lines-of-code-using-keras-264db7e7a358"> 
+Arun Maiya: BERT Text Classification in 3 Lines of Code Using Keras, 2019.08 </A> |<br>
+<a href=""> </A> |<br>
+<a href="github.com/google-research/bert"> GitHub BERT repo </A> |<br>
+<a href="https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html"> BERT on Google AI Blog </A> |<br>
+<a href="https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf">"Attention Is All You Need" by Vaswani et al, 2017.06 </A> |<br>
+<a href="https://nlp.seas.harvard.edu/2018/04/03/attention.html"> The Annotated Transformer (Blog Post) by Alexander Rush, Harvard NLP </A> |<br>
+
+<br>
+==> Jay Alammar’s Posts:<br>
+<a href="http://jalammar.github.io/illustrated-bert/"> The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning) </A> |<br>
+<a href="https://jalammar.github.io/illustrated-transformer/"> The Illustrated Transformer </A> |<br>
+<a href="https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/"> Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention) </A> |<br>
+<p>
+<a href="https://www.youtube.com/watch?v=2E65LDnM2cA&list=PL1w8k37X_6L_s4ncq-swTBvKDWnRSrinI&index=3"> RNN + more by A.Ng Coursera</A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href="https://nickcdryan.com/tag/nlp/"> Nick Ryan web page </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+
+ <a href="https://arxiv.org/abs/1907.11692"> FB's RoBERTa paper </A> |<br>
+<a href="https://venturebeat.com/2019/07/29/facebook-ais-roberta-improves-googles-bert-pretraining-methods/">
+FB's RoBERTa improves GOOG's BERT </A> |<br>
+
+<a href="https://towardsdatascience.com/breaking-bert-down-430461f60efb"> Breaking BERT Down
+A complete breakdown of the latest milestone in NLP </A> |<br>
+
+
+
+======================<br>
+You can download models from here: 
+https://github.com/huggingface/transformers/tree/master/src/transformers <br>
+
+For example for BERT it is located there: 
+https://github.com/huggingface/transformers/blob/master/src/transformers/modeling_bert.py  <br>
+
+An example of a link from the file modeling_bert.py : 
+https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased.tar.gz<br>
+
+
+
+After that you can use this models as following: 
+model = BertModel.from_pretrained('THE-PATH-TO-MODEL/bert-base-uncased.tar.gz')<br>
+
+https://huggingface.co/transformers/quickstart.html<br>
+
+
+<a href="https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html"> Open Sourcing BERT: State-of-the-Art Pre-training for Natural Language Processing</A> |<br>
+<a href="https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270"> 2018 Rani Horev: BERT Explained: State of the art language model for NLP</A> |<br>
+<br>
+<a href="https://huggingface.co/transformers/quickstart.html"> huggingface.co: Transformers Quickstart</A> |<br>
+<a href="https://huggingface.co/transformers/pretrained_models.html"> huggingface.co: Pre-Trained Models </A> |<br>
+<a href="https://deepset.ai/german-bert"> deepset.ai: Open Sourcing German BERT </A> |<br>
+<br>
+<a href="https://github.com/kamalkraj/BERT-SQuAD"> https://github.com/kamalkraj/BERT-SQuAD</A> |<br>
+<a href="https://web.stanford.edu/class/cs224n/reports/default/15848021.pdf"> BERT for Question Answering on SQuAD 2.0, by Zhaozhuo Xu, Yuwen Zhang </A> |<br>
+<a href="https://web.stanford.edu/class/cs224n/posters/15848021.pdf"> POSTER: BERT for Question Answering on SQuAD 2.0, by Zhaozhuo Xu, Yuwen Zhang</A> |<br>
+<a href=""> </A> |<br>
+
+<a href=""> </A> |<br>
+<a href="http://jalammar.github.io/illustrated-transformer/"> http://jalammar.github.io/illustrated-transformer/</A> |<br>
+<a href=""> </A> | <br><br>
+<a href="https://www.aclweb.org/anthology/P19-1580/"> 'Analyzing Multi-Head Self-Attention:
+Specialized Heads Do the Heavy Lifting, the Rest Can Be Pruned' by
+Elena Voita; David Talbot et al , 2019, 57th ACL Proceedings</A> | <br>
+<a href=""> </A> |
+<a href="https://towardsdatascience.com/https-medium-com-gaganmanku96-fine-tune-ernie-2-0-for-text-classification-6f32bee9bf3c"> Fine-Tune ERNIE 2.0 for Text Classification </A> |<br>
+<br>
+<br>
+TF:
+<a href="https://www.tensorflow.org/tutorials/text/transformer"> Transformer model for language understanding </A> |<br>
+<a href="https://github.com/tensorflow/models/tree/master/official/transformer"> Transformer Translation Model</A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+</div>
+</a>
+ 
+
+
+
+
+<hr>
+<hr>
+<a name="Text_Classf">
+<div id="Text_Classf">
+<p> Text_Classf:
+<br>
+<a href="https://freecontent.manning.com/deep-learning-for-text/"> https://freecontent.manning.com/deep-learning-for-text/ </A> |<br>
+<a href="https://github.com/fastai/fastai/"> https://github.com/fastai/fastai/</A> |<br>
+
+
+<a href="https://tfhub.dev/google/universal-sentence-encoder-multilingual-qa/3"> universal-sentence-encoder  https://tfhub.dev/google/universal-sentence-encoder-multilingual-qa/3   (pre=requisite   !pip3 install tensorflow_text>=2.0.0rc0)</A> |<br>
+<a href="https://github.com/TobiasLee/Text-Classification"> https://github.com/TobiasLee/Text-Classification </A> |<br>
+<a href="https://github.com/zackhy/TextClassification"> https://github.com/zackhy/TextClassification </A> |<br>
+<a href="https://github.com/dongjun-Lee/rnn-text-classification-tf/tree/master/models"> https://github.com/dongjun-Lee/rnn-text-classification-tf/tree/master/models</A> |<br>
+<a href="https://github.com/topics/bidirectional-lstm"> https://github.com/topics/bidirectional-lstm </A> |<br>
+<a href="ttps://github.com/AlexGidiotis/Document-Classifier-LSTM"> https://github.com/AlexGidiotis/Document-Classifier-LSTM </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href="https://www.kaggle.com/pierremegret/gensim-word2vec-tutorial"> Kaggle Gensim w2v tutorials </A> |<br>
+<a href="https://www.kaggle.com/tags/spacy"> KAGGLE SpaCy Tutorials </A> |<br>
+<a href="https://www.kaggle.com/enerrio/scary-nlp-with-spacy-and-keras">Scary NLP with SpaCy and Keras </A> |<br>
+
+<P> SPACY:<br> 
+conda install -c conda-forge spacy<br>
+python -m spacy download en_core_web_lg<br>
+python -m spacy download en_core_web_sm<br>
+python -m spacy download en<br>
+
+
+
+
+
+
+
+
+
+<hr>
+<hr>
+<a name="PYPY">
+<div id="PYPY">
+<p> PYPY:
+<br>
+<a href="https://stackoverflow.com/questions/39081766/what-are-formatted-string-literals-in-python-3-6"> formatting in py3.6</A> |<br>
+<a href="https://www.youtube.com/watch?v=cwAors_xDA4"> Чем так крут Python — реальный пример. Продуманная архитектура Python</A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+
+
+
+<hr>
+<hr>
+<a name="GPUGPU">
+<div id="GPUGPU">
+<p> GPUGPU:
+<br>
+<a href="https://medium.com/3blades-blog/an-introduction-to-gpu-programming-with-python-637818be6f7d"> An Introduction to GPU Programming With Python </A> |<br>
+<a href="https://medium.com/walmartlabs/how-gpu-computing-literally-saved-me-at-work-fc1dc70f48b6"> How GPU Computing literally saved me at work?</A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+
+
+
+<hr>
+<hr>
+<a name="STANFORD_NLP">
+<div id="STANFORD_NLP">
+<p> STANFORD_NLP:
+<br>
+<a href="https://github.com/yannick-c/expander/"> Stanford Core NLP models to expand common contractions </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+</div>
+</a>
+
+<hr>
+<hr>
+<a name="NLU_SUMMARY">
+<div id="NLU_SUMMARY">
+<p> NLU_SUMMARY:
+<br>
+<a href="https://www.newscientist.com/article/2220438-deepmind-ai-beats-humans-at-deciphering-damaged-ancient-greek-tablets/">DeepMind AI beats humans at deciphering damaged ancient Greek tablets </a> |<br>
+<a href="https://arxiv.org/abs/1910.06262"> Restoring ancient text using deep learning: a case study on Greek epigraphy, by
+Yannis Assael et al</a> |<br>
+<a href=""> </a> |<br>
+
+<a href="https://arxiv.org/pdf/1905.03197.pdf"> 2019.10 Li Dong et al: Unified Language Model Pre-training for
+Natural Language Understanding and Generation </a> |<br>
+<a href="https://github.com/microsoft/unilm"> 2019 UniLM - Unified Language Model Pre-training : https://github.com/microsoft/unilm</a> |<br>
+<a href=""> </a> |<br>
+</div>
+</a>
+
+
+
+
+
+<hr>
+<hr>
+<a name="KERAS">
+<div id="KERAS">
+<p> KERAS:
+<br>
+<a href="https://github.com/keras-team/keras-applications/tree/master/keras_applications"> keras-team: keras_applications</a>|
+<a href="https://www.tensorflow.org/tutorials/text/text_classification_rnn"> Text classification with an RNN </a> |
+<a href="https://www.tensorflow.org/tutorials/text/transformer">Transformer model for language understanding </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+</div>
+</a>
+
+
+
+
+
+
+<hr>
+<hr>
+<a name="DOCS_BOUND_DETECTION__COMP">
+<div id="DOCS_BOUND_DETECTION__COMP">
+<p> DOCS_BOUND_DETECTION__COMP:
+<br>
+<a href="https://github.com/topics/sentence-boundary-detection"> sentence-boundary-detection</a> |
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3002123/"> Evaluation of a Method to Identify and Categorize Section Headers in Clinical Documents, by Joshua C. Denny, et al</a> |
+<a href="http://ceur-ws.org/Vol-710/paper23.pdf">A Machine Learning Approach to Identifying Sections in Legal Briefs, Scott Vanderbeck et al </a> |
+<a href="https://link.springer.com/chapter/10.1007/978-3-540-30586-6_92"> A Paragraph Boundary Detection System, Dmitriy Genzel </a> |
+
+<a href="https://stackoverflow.com/questions/3237624/how-to-use-nlp-to-separate-a-unstructured-text-content-into-distinct-paragraphs"> How to use NLP to separate a unstructured text content into distinct paragraphs? </a> |
+<a href="https://stackoverflow.com/questions/8897593/how-to-compute-the-similarity-between-two-text-documents?rq=1"> 
+How to compute the similarity between two text documents? </a> |
+<a href="https://arxiv.org/abs/1803.11175">  Universal Sentence Encoder, Daniel Cer et al</a> |
+<a href="https://github.com/yannick-c/expander"> expand common contractions </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+</div>
+</a>
+
+
+
+
+
+
+<hr>
+<hr>
+<a name="DATASETS">
+<div id="DATASETS">
+<p> DATASETS:
+<br>
+<a href="https://breakend.github.io/DialogDatasets/"> A Survey of Available Corpora for Building Data-Driven Dialogue Systems</a> |
+
+<a href="https://ai.google/tools/datasets/coached-conversational-preference-elicitation"> coached-conversational-preference-elicitation </a> |
+<a href="https://storage.googleapis.com/dialog-data-corpus/CCPE-M-2019/landing_page.html"> Accessing the CCPE-M dataset </a> |
+<a href="https://storage.googleapis.com/dialog-data-corpus/CCPE-M-2019/data.json"> CCPE-M-2019/data.json </a> |
+<a href="http://ufal.mff.cuni.cz/udpipe#language_models"> UDPipe </a> |
+<a href="http://ufal.mff.cuni.cz/~straka/papers/2017-conll_udpipe.pdf"> Tokenizing, POS Tagging, Lemmatizing and Parsing UD 2.0 with UDPipe, by Milan Straka and Jana Strakova</a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+</div>
+</a>
+
+
+<hr>
+<hr>
+<a name="SALARY">
+<div id="SALARY">
+<p> SALARY:
+<br>
+<a href="https://datasciencedegree.wisconsin.edu/data-science/data-scientist-salary/"> data-scientist-salary </A> |
+<a href="https://www.youtube.com/watch?v=GnYOcJfH8bQ"> Data Scientist Salary 2019: base salary 200k+ </A> |
+<a href="https://insights.dice.com/2019/08/01/google-senior-software-engineer-salary/?CMPID=EM_RE_UP_JS_AD_DA_CP_B_&utm_campaign=Advisory_DiceAdvisor_B&utm_source=Responsys&utm_medium=Email"> DICE: Google Senior Software Engineer Salary </A> |
+<a href="https://www.levels.fyi/SE/Microsoft/Google/Facebook/"> Salaries: www.levels.fyi </A> |
+<a href="https://www.levels.fyi/comp.html?track=Software%20Engineer"> Levels.fyi: Salaries at all companies </A> |
+<a href=""> </A> |
+<a href="https://www.foreignlaborcert.doleta.gov/performancedata.cfm"> US Dept of Labor: H1 scam numbers </A> |
+<a href="https://www.comparably.com/companies/datarobot/salaries"> comparably.com </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+</div>
+</a>
+
+
+<hr>
+<hr>
+<a name="VAE">
+<div id="VAE">
+<p> VAE:<br>
+<a href="https://www.youtube.com/watch?v=9zKuYvjFFS8&feature=youtu.be"> Arxiv Insights: Variational Autoencoders </A> |
+<a href="https://www.youtube.com/watch?v=fcvYpzHmhvA"> CodeEmporiumL Variational Autoencoders - EXPLAINED! </A> |
+<a href="https://www.youtube.com/watch?v=uaaqyVS9-rM"> Ali Ghodsi, Lec : Deep Learning, Variational Autoencoder, Oct 12 2017 [Lect 6.2] </A> |
+
+<a href="https://arxiv.org/abs/1606.05579"> Disentangled VAE's (DeepMind 2016) </A> |
+<a href="https://arxiv.org/abs/1707.08475"> Applying disentangled VAE's to RL: DARLA (DeepMind 2017) </A> |
+<a href="https://arxiv.org/abs/1312.6114"> Original VAE paper (2013) </A> |
+<a href=""> </A> |
+<a href="http://bjlkeng.github.io/posts/semi-supervised-learning-with-variational-autoencoders/"> Semi-supervised Learning with Variational Autoencoders </a> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+</div>
+</a>
+
+
+
+
+
+
+
+<hr>
+<hr>
+<a name="NER_PyTextRank">
+<div id="NER_PyTextRank">
+<p> NER_PyTextRank:
+<br>
+NER:
+<a href="https://nlpforhackers.io/named-entity-extraction/"> Name Entity Recognition </a> |
+<a href="https://towardsdatascience.com/named-entity-recognition-with-nltk-and-spacy-8c4a7d88e7da"> Named Entity Recognition with NLTK and SpaCy</a>
+<a href="https://github.com/susanli2016/NLP-with-Python/blob/master/NER_NLTK_Spacy.ipynb"> (code is here) </A> |
+<a href="https://web.stanford.edu/~jurafsky/slp3/17.pdf"> Speech and Language Processing (3rd ed. draft) </A> |
+<a href="https://www.kaggle.com/poonaml/text-classification-using-spacy"> Kaggle: text classif w/ SpaCy </A> |
+<a href="https://www.kaggle.com/hubert0527/spacy-name-entity-recognition"> Kaggle: SpaCy NER </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<br>
+pytextrank
+<a href="http://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf"> pytextrank paper </A> |
+<a href="https://xang1234.github.io/textrank/"> Xang: pytextrank example </A> |
+<a href="">  </A> |
+<a href="">  </A> |
+<a href="">  </A> |
+<a href="">  </A> |
+<a href="">  </A> |
+</div>
+</a>
+
+
+
+<hr>
+<hr>
+<a name="NN_Theory">
+<div id="NN_Theory">
+<p> NN_Theory:<br>
+<a href="http://neuralnetworksanddeeplearning.com/chap4.html"> Michael Nielson's book (ch4: on universality theorem) </a> |
+<a href="http://www.dartmouth.edu/~gvc/Cybenko_MCSS.pdf"> Approximation by Superposition of a Sigmoid Function by G.Cybenko, 1989 </a> |
+<a href="https://www.sciencedirect.com/science/article/pii/0893608089900208"> Multilayer feedforward networks are universal approximators by Kurt Hornik et al, 1989</a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+</div>
+</a>
+
+
+<hr>
+<hr>
+<a name="CLIP_NLTK">
+<div id="CLIP_NLTK">
+<p> CLIP_NLTK:
+CLiPS (Computational Linguistics and Phycholinguistics Research Center):<br>
+<a href="https://www.clips.uantwerpen.be/pages/pattern"> clips.uantwerpen.be/pages/pattern </A> |<br>
+<a href="https://www.clips.uantwerpen.be/pages/pattern-en#parser"> clips.uantwerpen.be/pages/pattern-en#parser </A> |<br>
+<a href="https://www.uantwerpen.be/en/research-groups/clips/research/software/demos/"> clips/research/software/demos/ </A> |<br>
+<a href="https://github.com/clips/pattern"> github.com/clips/pattern </A> |<br>
+<a href="https://www.nltk.org/api/nltk.tokenize.html">https://www.nltk.org/api/nltk.tokenize.html </A> |<br>
+<a href="https://web.stanford.edu/~jurafsky/slp3/14.pdf"> Statistical Constituency Parsing , Ch 14, Jurafski et al</A> |<br>
+<a href="http://text-processing.com/demo/"> DEMOS: Python NLTK Demos for Natural Language Text Processing </A> |<br>
+<a href=""> </A> |<br>
+<a href="https://www.nltk.org/book/ch08.html"> Analyzing Sentence Structure: Parsing the sentence using POS-tagging:  nltk.org-book-ch08.html</A> |<br>
+<a href=""> </A> |
+<a href=""> </A> |
+</div>
+</a>
+
+
+
+
+
+<hr>
+<hr>
+<a name="HABR">
+<div id="HABR">
+<p> HARB:<br>
+<a href="https://habr.com/ru/post/460321/"> Галерея лучших блокнотов по ML и Data Science </A> |<br>
+<a href="https://habr.com/ru/company/sberbank/blog/418701/"> Денис Кирьянов: Изучаем синтаксические парсеры для русского языка</A> |<br>
+<a href="https://opendatascience.slack.com/archives/C043ZEF6K/p1578326816292700">https://opendatascience.slack.com/archives/C043ZEF6K/p1578326816292700 </A> |<br>
+<a href="https://github.com/DenisVorotyntsev/AutoSeries">https://github.com/DenisVorotyntsev/AutoSeries </A> |<br>
+<a href="https://towardsdatascience.com/automl-for-time-series-forecasting-6caaf194d268">
+Denis Vorotyntsev: AutoML for Time Series Forecasting</A> |<br>
+</div>
+</a>
+
+
+
+<hr>
+<hr>
+<a name="RE">
+<div id="RE">
+<p> RE:<br>
+<a href="https://www.regular-expressions.info/tutorial.html"> regular-expressions.info/tutorial.html</A> |<br>
+<a href="https://www.regular-expressions.info/hipowls.html"> www.regular-expressions.info</A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+</div>
+</a>
+
+
+
+
+
+<hr>
+<hr>
+<a name="TopicModeling">
+<div id="TopicModeling">
+<p> Topic Modeling / Chat Mining :<br>
+<a href="https://eight2late.wordpress.com/2015/09/29/a-gentle-introduction-to-topic-modeling-using-r/"> G Intro Topic Modeling in R </a> |
+<a href="https://eight2late.wordpress.com/2015/05/27/a-gentle-introduction-to-text-mining-using-r/"> G Intro Text Mining R</A> | 
+<a href="http://tidytextmining.com/topicmodeling.html"> Topic modeling (tidytextmining.com)</a> |
+
+<a href="http://www.vladsandulescu.com/topic-prediction-lda-user-reviews/"> topic-prediction-lda-user-reviews</a> |
+<a href="https://www.yelp.com/html/pdf/YelpDatasetChallengeWinner_ImprovingRestaurants.pdf"> Improving Restaurants by Extracting Subtopics from Yelp Reviews by J.Huang et al</a> |
+<a href="https://github.com/vladsandulescu/topics"> https://github.com/vladsandulescu/topics </a> |
+<a href="https://www.kaggle.com/morrisb/compare-lda-topic-modeling-in-sklearn-and-gensim"> kaggle: LDA example </a> |
+<a href="http://stats.stackexchange.com/questions/9315/topic-prediction-using-latent-dirichlet-allocation"> Stackexchange: topic pred using LDA</a> |
+<a href="https://www.quora.com/Could-latent-Dirichlet-allocation-solved-by-Gibbs-sampling-versus-variational-EM-yield-different-results"> Quora: Gibbs sampling vs VEM in LDA</a> |
+<a href="https://www.quora.com/When-should-I-prefer-variational-inference-over-MCMC-for-Bayesian-analysis"> Quora: variational-inference-over-MCMC-for-Bayesian-analysis </A> |
+<a href="https://stats.stackexchange.com/questions/24441/two-r-packages-for-topic-modeling-lda-and-topicmodels"> Pros and cons of TOPICMODELING and LDA pkgs </A> | 
+<a href="https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-latent-dirichlet-allocation-437c81220158">
+Intuitive Guide to Latent Dirichlet Allocation by 
+Thushan Ganegedara
+</a> |
+<a href="https://www.youtube.com/watch?v=3mHy4OSyRf0&t=1058s"> Andrius Knispelis
+ youtube video: LDA Topic Models </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+</div>
+</a>
+
+
+<hr>
+<hr>
+<a name="CHAT_MINING">
+<div id="CHAT_MINING">
+<p> CHAT_MINING: <br>
+<a href="https://pdfs.semanticscholar.org/647f/924c452d7c558a82fca7fd09b922aeab9265.pdf">Chat Mining: Predicting User and Message Attributes, Cevdet Aykanat et al </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+</div>
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+<hr>
+<a name="TF2">
+<div id="TF2">
+<p> TF2.0:<br>
+<a href="https://www.tensorflow.org/hub"> TensorFlow Hub is a library for reusable machine learning modules. </A> |<br>
+
+<a href="https://www.youtube.com/watch?v=k5c-vg4rjBw"> youtube: TF 2.0 </a> |
+pip install -U --pre tensorflow<br>
+<a href="bit.ly/mini-dream"> 9-deep-dream-minmal.ipynb at colab </a> |
+<a href="bit.ly/mini-nmt"> mini google translator </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<br>
+<a href="https://www.youtube.com/watch?v=3O-5DuqKaRo"> edureka! TF2 tutorial</a> |
+<a href=""> </a> |
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+
+</div>
+</a>
+
+
+
+<hr>
+<hr>
+<a name="KAGGLE">
+<div id="KAGGLE">
+<p> KAGGLE:<br>
+<a href="https://www.youtube.com/watch?v=ArygUBY0QXw&feature=youtu.be"> Abhishek Thakur Episode 1.1: Intro and building a machine learning framework </a> |<br>
+<a href="https://github.com/cdr/code-server"> https://github.com/cdr/code-server </a> |<br>
+<a href="https://github.com/github/gitignore"> https://github.com/github/gitignore </a> |<br>
+<a href="https://github.com/github/gitignore/blob/master/Python.gitignore"> https://github.com/github/gitignore/blob/master/Python.gitignore </a> |<br>
+<a href="https://www.youtube.com/watch?v=zcqgj-Udcqs"> Abhishek Thakur Episode 1.2: Building an inference for the machine learning framework</a> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+
+<a href="https://www.youtube.com/watch?v=G0_Yd6Gvf6U"> Quick Kaggle Update for my NLP Analyze Two Sentences Challenge </a> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+<a href="https://www.youtube.com/watch?v=tSzrecBdyJc&list=PLjy4p-07OYzvyN1IzfCFRXiSXhKd0ijhh"> Kaggle: Jeff Heaton's Guide and Strategies for Top 10% (or higher) Finishes
+Jeff Heaton </a> |<br>
+<a href="https://www.youtube.com/watch?v=eNkayufkT04"> Jeff Heaton: Kaggle: How to Place in the Top 10% (part 1) </a> |<br>
+<a href="https://www.youtube.com/watch?v=tSzrecBdyJc&list=PLjy4p-07OYzvyN1IzfCFRXiSXhKd0ijhh&index=2"> Python Toolkit that Used for Two Kaggle Top 10% Leaderboard Finishes </a> |<br>
+
+<a href="https://www.youtube.com/watch?v=ArPaAX_PhIs&list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF"> Andrew Ng ConvNets 41 lectures Nov 2017 </A> |
+<a href="https://www.youtube.com/watch?v=R39tWYYKNcI&list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&index=38"> C4W4L07 What are deep CNs learning? </A> |
+<a href="https://www.kaggle.com/learn/feature-engineering"> Feature Engineering by Pavel Pleskov </A> |
+<a href=""> </A> |
+
+
+
+<p> KAGGLE-NLP-Spooky:
+<a href="https://www.kaggle.com/c/spooky-author-identification/kernels"> Spooky Author Identification Kernels </A> |
+<a href="https://www.kaggle.com/arthurtok/spooky-nlp-and-topic-modelling-tutorial/notebook"> A KERNEL:  Spooky NLP and Topic Modelling tutorial </A> |
+<a href="https://www.kaggle.com/baghern/a-deep-dive-into-sklearn-pipelines"> KERNEL: A Deep Dive Into Sklearn Pipelines - Good example of FeatureUnion </A> |
+<a href="https://www.kaggle.com/nzw0301/simple-keras-fasttext-val-loss-0-31">Simple Keras FastText: val_loss 0.31 </A> |
+<a href="https://www.kaggle.com/yevhent/keras-lstm-cnn-and-transfer-learning"> Keras LSTM, CNN and... Transfer Learning </A> |
+<a href="https://www.kaggle.com/kashnitsky/vowpal-wabbit-tutorial-blazingly-fast-learning/notebook"> Vowpal Wabbit tutorial: blazingly fast learning </A> |
+<a href="https://www.kaggle.com/metadist/work-like-a-pro-with-pipelines-and-feature-unions"> Work like a Pro with Pipelines and Feature Unions </A> |
+<a href="https://www.kaggle.com/arthurtok/spooky-nlp-and-topic-modelling-tutorial"> NLTK + Topic Modelling with LDA and NNMF </A> |
+<a href=""> </A> |
+<a href="https://www.kaggle.com/maheshdadhich/creative-feature-engineering-lb-0-35"> Creative Feature Engineering (LB 0.35) - Has Animated Word Cloud </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+
+<p> KAGGLE-NLP-Santander Customer Transaction Prediction :
+<a href="https://www.kaggle.com/c/santander-customer-transaction-prediction"> Santander Customer Transaction Prediction </A> |
+<a href="https://www.kaggle.com/nawidsayed/lightgbm-and-cnn-3rd-place-solution/data"> Fork of LightGBM NN kfold ebe29a </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+
+
+<br> KAGGLE-NLP
+<a href="https://www.kaggle.com/c/santander-customer-satisfaction"> KAGGLE: Santander Customer Satisfaction </a> |
+<a href="https://www.kaggle.com/zhenyufan/nlp-for-yelp-reviews/notebook?utm_medium=email"> NLP for Yelp Reviews </A> |
+<a href="https://www.kaggle.com/zhenyufan/nlp-for-yelp-reviews/notebook?utm_medium=email&utm_source=intercom&utm_campaign=datanotes-2019"> NLP for Yelp Reviews </A> |<br>
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+
+
+<a href="https://www.kaggle.com/abbahaddou/bbc-automatic-document-classification"> A KERNEL: bbc-automatic-document-classification </A> |
+<a href="https://towardsdatascience.com/named-entity-recognition-with-nltk-and-spacy-8c4a7d88e7da"> Named Entity Recognition with NLTK and SpaCy </a> |
+<a href="https://nlpforhackers.io/named-entity-extraction/"> Name Entity Recognition </a> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+
+
+<br> Toxic Comment Competition:
+<a href="https://www.kaggle.com/paulofelipe/logistic-regression-with-nb-features"> Paulo Felipe 0.052</a> |
+<a href=""> </a> |
+<a href="http://ronny.rest/blog/post_2017_08_04_glove/"> pretrained Glove word embeddings </a> |
+<a href="https://worksheets.codalab.org/bundles/0x15a09c8f74f94a20bec0b68a2e6703b3/"> glove.6B.100d.txt </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href="http://blog.kaggle.com/2017/06/15/stacking-made-easy-an-introduction-to-stacknet-by-competitions-grandmaster-marios-michailidis-kazanova/"> 
+Stacking by Kazanova</a> |
+<a href="https://arxiv.org/abs/1607.04606">Piotr Bojanowski, Edouard Grave, Armand Joulin, Tomas Mikolov 
+"Enriching Word Vectors with Subword Information" </a> |
+<a href="https://fasttext.cc/docs/en/pretrained-vectors.html"> FastText: wiki word vectors</a> |
+</div>
+</a>
+
+<hr>
+<hr>
+
+<a name="YandexDataSchool">
+<div id="YandexDataSchool">
+<p> YandexDataSchool: <br>
+
+<p>
+
+ Yandex School of Data Analysis: <a href="https://github.com/yandexdataschool">   https://github.com/yandexdataschool </a> <br>
+
+NLP_course_master (aka 2018) <a href="https://github.com/yandexdataschool/nlp_course/tree/master"> https://github.com/yandexdataschool/nlp_course/tree/master </a> |<br>
+
+NLP_course_2019 <a href="https://github.com/yandexdataschool/nlp_course"> https://github.com/yandexdataschool/nlp_course </a> |<br>
+
+<a href=""> </a> |
+<a href=""> </a> |
+
+
+
+
+<p> 
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+</style>
+<table style="width:50%">
+  <tr> 
+    <th>Week</th>
+    <th>2018 YANDEX NLP</th>
+    <th>2019 YANDEX NLP</th> 
+    <th>2020 YANDEX NLP</th>
+  </tr>
+  <tr>
+    <td>wk01</td>
+    <td>Embedding</td>
+    <td>Embedding</td>
+    <td>tbd</td>
+  </tr>
+  <tr>
+    <td>wk02</td>
+    <td>Classification</td>
+    <td>Text classification</td>
+    <td>tbd</td>
+  </tr>
+  <tr>
+    <td>wk03</td>
+    <td>LM</td>
+    <td>Language Models</td>
+    <td>tbd</td>
+  </tr>
+  <tr>
+    <td>wk04</td>
+    <td>seq2seq</td>
+    <td>Seq2seq/Attention</td>
+    <td>tbd</td>
+  </tr>
+  <tr>
+    <td>wk05</td>
+    <td>structured</td>
+    <td>Structured Learning</td>
+    <td>tbd</td>
+  </tr>
+  <tr>
+    <td>wk06</td>
+    <td>EM</td>
+    <td>Expectation-Maximization</td>
+    <td>tbd</td>
+  </tr>
+  <tr>
+    <td>wk07</td>
+    <td>MT</td>
+    <td>Machine translation</td>
+    <td>tbd</td>
+  </tr>
+  <tr>
+    <td>wk08</td>
+    <td>MuliTask</td>
+    <td>Transfer learning and Multi-task learning</td>
+    <td>tbd</td>
+  </tr>
+  <tr>
+    <td>wk09</td>
+    <td>DA</td>
+    <td>Domain Adaptation</td>
+    <td>tbd</td>
+  </tr>
+  <tr>
+    <td>wk10</td>
+    <td>Dialogue</td>
+    <td>Dialogue Systems</td>
+    <td>tbd</td>
+  </tr>
+  <tr>
+    <td>wk11</td>
+    <td>GAN</td>
+    <td>Adversarial learning & Latent Variables for NLP</td>
+    <td>tbd</td>
+  </tr>
+  <tr>
+    <td>wk12</td>
+    <td>Summarization</td>
+    <td>Text Summarization</td>
+    <td>tbd</td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+<a name="YandexNLP_2018">
+<div id="YandexNLP_2018">
+
+<p> <a href="https://github.com/yandexdataschool/nlp_course/tree/master"> YandexNLP_2018 &ensp; (https://github.com/yandexdataschool/nlp_course/tree/master):</a> <br>
+<p>
+
+<!--a href="https://github.com/yandexdataschool/nlp_course/tree/master/week01_embeddings"--> 
+01 master/week01_embeddings </A> |<br>
+&emsp; <a href="https://yadi.sk/i/Ff1jVAODd4P9ug"> Natural Language Processing – David Talbot от 13.09.18.mp4 </A> |<br>
+&emsp; <a href="https://yadi.sk/i/wzVA1XYKS2u6NQ"> Word Embeddings – Elena Voita от 13.09.18.mp4 </A> |<br>
+&emsp; <a href="https://yadi.sk/i/X5UYALfyyrwzYw"> Word Embeddings – Федор Ратников от 13.09.18.mp4 </A> |<br>
+
+<!--a href="https://github.com/yandexdataschool/nlp_course/tree/master/week02_classification"--> 
+02 master/week02_classification</A>|<br>
+&emsp; <a href="https://yadi.sk/i/lIcXiNuBXNAWzg"> Text Classification – Boris Kovarsky от 20.09.18.mp4 </A> |<br>
+&emsp; <a href="https://yadi.sk/i/2xYHH0Fj1vb82A"> Text Classification – Федор Ратников от 20.09.18.mp4 </A> |<br>
+
+<!--a href="https://github.com/yandexdataschool/nlp_course/tree/master/week03_lm"--> 
+03 master/week03_lm </A> |<br>
+&emsp; <a href="https://yadi.sk/i/8JK4dH6E9Iyy8g">Language models – Elena Voita от 27.09.18.mp4 </A> |<br>
+&emsp; <a href="https://yadi.sk/i/HfjTLRejnVwP7g"> N-gram language models or how to write scientific papers – Федор Ратников от 27.09.18.mp4</A> |<br>
+&emsp; <a href="https://yadi.sk/i/0x-o0B2FGiHthg"> Recurrent units in detail – Elena Voita от 27.09.18.mp4</A> |<br>
+
+<!--a href="https://github.com/yandexdataschool/nlp_course/tree/master/week04_seq2seq"--> 
+04 master/week04_seq2seq </A> |<br>
+&emsp; <a href="https://yadi.sk/i/3y9JX6Q_0ZLqpA"> Seq2seq and Attention – Elena Voita от 04.10.2018.mp4 </A> |<br>
+&emsp; <a href="https://yadi.sk/i/cB5606vgbOlBog"> Seq2seq – Федор Ратников от 04.10.2018.mp4</A> |<br>
+
+<!--a href="https://github.com/yandexdataschool/nlp_course/tree/master/week05_structured"--> 
+05 master/week05_structured </A> |<br>
+&emsp; <a href="https://yadi.sk/i/E3Rl6x4LtYZZ7g"> Структурированное обучение – Сергей Губанов от 11.10.18.mp4</A> |<br>
+&emsp; <a href="https://yadi.sk/i/cIkA3WV9NPjdMg"> Sparse features & Hashing trick. – Сергей Губанов от 11.10.18.mp4 </A> |<br>
+
+<!--a href="https://github.com/yandexdataschool/nlp_course/tree/master/week06_em"--> 
+06 master/week06_em </A> |<br>
+&emsp; <a href="https://yadi.sk/i/4ZA6BCJBQAxy3Q"> Generative Models And Expectation Maximization – David Talbot от 18.10.18.mp4</A> |<br>
+&emsp; <a href="https://yadi.sk/i/uPuNKeGkULujVg"> Seminar Generative Models And Expectation Maximization – David Talbot от 18.10.18.mp4</A> |<br>
+
+
+<!--a href="https://github.com/yandexdataschool/nlp_course/tree/master/week07_mt"-->
+07 master/week07_mt </A> |<br>
+&emsp; <a href="https://yadi.sk/i/pDxo20nK-UnVHg"> Machine Translation часть 1 – David Talbot от 25.10.2018.mp4 </A> |<br>
+&emsp; <a href="https://yadi.sk/i/k1_0T_WptcSvYw"> Machine Translation часть 2 – David Talbot от 25.10.2018.mp4 </A> |<br>
+
+
+<!--a href="https://github.com/yandexdataschool/nlp_course/tree/master/week08_multitask"--> 
+08 master/week08_multitask </A> |<br>
+&emsp; <a href="https://yadi.sk/i/6Sbu_oja9h_QZw"> Transfer learning Multi-task learning in NLP - Elena Voita от 08.11.2018.mp4</A> |<br>
+&emsp; <a href="https://yadi.sk/i/AGgnMxu_UvpOsg"> Named EntityRecognition –Федор Ратников от 08.11.18.mp4 </A> |<br>
+
+
+<!--a href="https://github.com/yandexdataschool/nlp_course/tree/master/week09_da"--> 
+09 master/week09_da </A> |<br>
+&emsp; <a href="https://yadi.sk/i/MnuyuCSAOJainw"> Domain adaptation лекция - Boris Kovarsky от 15.11.2018.mp4 </A> |<br>
+&emsp; <a href="https://yadi.sk/i/15ApU2_cTFbL1g"> Domain adaptation семинар - Фёдор Ратников от 15.11.2018.mp4</A> |<br>
+
+
+<!--a href="https://github.com/yandexdataschool/nlp_course/tree/master/week10_dialogue"--> 
+10 master/week10_dialogue</A> |<br>
+&emsp; <a href="https://yadi.sk/i/veiL1U9KhiYFlA"> Dialogue systems – Elena Voita от 22.11.18.mp4</A> |<br>
+&emsp; <a href="https://yadi.sk/i/H9ysab5AiSrM4Q"> Dialogue – Федор Ратников от 22.11.18.mp4</A> |<br>
+&emsp; <a href="https://yadi.sk/i/c1pbEa0P3Up6jz"> DSSM - Александр Панин 25.04.2018.mp4</A> |<br>
+
+
+<!--a href="https://github.com/yandexdataschool/nlp_course/tree/master/week11_gan"--> 
+11 master/week11_gan </A> |<br>
+&emsp; <a href="https://yadi.sk/i/bXEimWhiCwvDBQ"> Generative models – Федор Ратников от 29.11.18.mp4</A> |<br>
+&emsp; <a href="https://yadi.sk/i/31aOtnMUgYbblA"> Un(semi)-supervised word translation learning – борис Коварский от 29.11.18.mp4 </A> |<br>
+
+
+<!--a href="https://github.com/yandexdataschool/nlp_course/tree/master/week12_summarization"--> 
+12 master/week12_summarization</A> |<br>
+&emsp; <a href="https://yadi.sk/i/DYRl1sxGK5fyKA">Text summarization – Elena Voita от 06.12.18.mp4 </A> |<br>
+
+</div>
+</a>
+
+<hr>
+<hr>
+
+
+<a href=""> </A> |<br>
+
+
+
+
+
+
+
+
+
+
+<a name="YandexNLP_2019">
+<div id="YandexNLP_2019">
+<p><br>
+
+<a href="https://github.com/yandexdataschool/nlp_course">  YandexNLP_2019 Syllabus &ensp;  
+( https://github.com/yandexdataschool/nlp_course )</A> :<br><br>
+
+
+<a href="https://github.com/yandexdataschool/nlp_course/tree/2019/week01_embeddings"> 2019/week01_embeddings </A> |<br>     
+&emsp; <a href="https://yadi.sk/i/BNTJG-_rwf20Gw"> Natural Language Processing – David Talbot от 2019.09.12.mp4</A> |
+&ensp; &emsp; ( <a href="https://yadi.sk/i/Ff1jVAODd4P9ug"> Natural Language Processing – David Talbot от 13.09.18.mp4</A> )|<br>
+&emsp; <a href="https://yadi.sk/i/nUiHl4VPMOCz0g"> Word Embeddings – Lena Voita от 2019.09.12.mp4 </A> |
+&ensp; &emsp; ( <a href="https://yadi.sk/i/wzVA1XYKS2u6NQ"> Word Embeddings – Elena Voita от 13.09.18.mp4</A> )  |<br>
+&emsp; <a href="https://yadi.sk/i/QTcGA5mgdhS8jg"> Word Embeddings. Семинар – Фёдор Ратников от 2019.09.12.mp4</A> ) |
+&ensp; &emsp; ( <a href="https://yadi.sk/i/X5UYALfyyrwzYw"> Word Embeddings – Федор Ратников от 13.09.18.mp4</A> ) | <br>
+
+<a href="https://github.com/yandexdataschool/nlp_course/tree/2019/week02_classification"> 2019/week02_classification</A>|<br>
+&emsp; <a href="https://yadi.sk/i/6HQc8122IL0fIQ"> Text Classification – Lena Voita от 2019.09.19.mp4 </A> |
+&ensp; &emsp; ( <a href="https://yadi.sk/i/lIcXiNuBXNAWzg"> Text Classification – Boris Kovarsky от 20.09.18.mp4</A> ) |<br>
+&emsp; <a href="https://yadi.sk/i/xRwCZEzp0DkL4g"> Text Classification. Семинар – Фёдор Ратников от 2019.09.19.mp4 </A> |
+&ensp; &emsp; ( <a href="https://yadi.sk/i/2xYHH0Fj1vb82A"> Text Classification – Федор Ратников от 20.09.18.mp4</A> ) |<br>
+
+<a href="https://github.com/yandexdataschool/nlp_course/tree/2019/week03_lm"> 2019/week03_lm </A> |<br>
+&emsp; <a href="https://yadi.sk/i/ygaphbkfZinu8g"> Language Models – Lena Voita от 2019.09.26.mp4 </A> |
+&ensp; &emsp; (<a href="https://yadi.sk/i/8JK4dH6E9Iyy8g"> Language models – Elena Voita от 27.09.18.mp4</A> )|<br>
+&emsp; <a href="https://yadi.sk/i/UXa6vq2FZ5IASg"> Language Models. Семинар – Фёдор Ратников от 2019.09.26.mp4 </A> |
+&ensp; &emsp; (<a href="https://yadi.sk/i/HfjTLRejnVwP7g"> N-gram language models or how to write scientific papers – Федор Ратников от 27.09.18.mp4</A> )|<br>
+&ensp; &emsp; (<a href="https://yadi.sk/i/0x-o0B2FGiHthg"> Recurrent units in detail – Elena Voita от 27.09.18.mp4</A> )|<br>
+
+
+<a href="https://github.com/yandexdataschool/nlp_course/tree/2019/week04_seq2seq"> 2019/week04_seq2seq </A> |<br>
+&emsp; SAME VIDEO AS IN 2018
+&emsp; &emsp; (<a href="https://yadi.sk/i/3y9JX6Q_0ZLqpA"> Seq2seq and Attention – Elena Voita от 04.10.2018.mp4</A> ) |<br>
+&emsp; SAME VIDEO AS IN 2018
+&emsp; &emsp; (<a href="https://yadi.sk/i/cB5606vgbOlBog"> Seq2seq – Федор Ратников от 04.10.2018.mp4</A> )|<br>
+
+
+<a href="https://github.com/yandexdataschool/nlp_course/tree/2019/week05_em"> 2019/week05_em </A> |<br>
+&emsp; <a href="https://yadi.sk/i/4LcSl4Lg4B6Rsg"> Generative models and hidden variables. Part 1 – David Talbot от 2019.10.10.mp4</A> |
+&ensp; &emsp; ( <a href="https://yadi.sk/i/E3Rl6x4LtYZZ7g"> Структурированное обучение – Сергей Губанов от 11.10.18.mp4</A> ) |<br>
+&emsp; <a href="https://yadi.sk/i/v5LEWUQKRPpO3g"> Generative models and hidden variables. Part 2 – David Talbot от 2019.10.10.mp4</A> |
+&ensp; &emsp; ( <a href="https://yadi.sk/i/cIkA3WV9NPjdMg"> Sparse features & Hashing trick. – Сергей Губанов от 11.10.18.mp4</A> ) |<br>
+
+<a href="https://github.com/yandexdataschool/nlp_course/tree/2019/week06_mt"> 2019/week06_mt </A> |<br>
+&emsp; <a href="https://yadi.sk/i/3tvn0eGg96VRZA"> World Alignment Models. Part 1 – David Talbot от 2019.10.17.mp4</A> |
+&emsp; &ensp; ( <a href="https://yadi.sk/i/4ZA6BCJBQAxy3Q"> Generative Models And Expectation Maximization – David Talbot от 18.10.18.mp4</A> ) |<br>
+&emsp; <a href="https://yadi.sk/i/qn19dYPx1AD92w"> World Alignment Models. Part 2 – David Talbot от 2019.10.17.mp4</A> |
+&emsp; &ensp; ( <a href="https://yadi.sk/i/uPuNKeGkULujVg"> Seminar Generative Models And Expectation Maximization – David Talbot от 18.10.18.mp4</A> ) |<br>
+
+
+<a href="https://github.com/yandexdataschool/nlp_course/tree/2019/week07_structured">2019/week07_structured </A> |<br>
+&emsp; <a href="https://yadi.sk/i/d_jetJsHF5BY7A"> Структурированное обучение. Часть 1 – Сергей Губанов от 2019.10.24.mp4
+ </A> |
+&emsp; &ensp; (<a href="https://yadi.sk/i/pDxo20nK-UnVHg"> Machine Translation часть 1 – David Talbot от 25.10.2018.mp4 </A> )|<br>
+&emsp; <a href="https://yadi.sk/i/ANKXdifrghKOJg"> Структурированное обучение. Часть 2 – Сергей Губанов от 2019.10.24.mp4 </A> |
+&emsp; &ensp; ( <a href="https://yadi.sk/i/k1_0T_WptcSvYw"> Machine Translation часть 2 – David Talbot от 25.10.2018.mp4 </A> ) |<br>
+
+
+
+<a href="https://github.com/yandexdataschool/nlp_course/tree/2019/week08_conversation"> 2019/week08_conversation </A> |<br>
+&emsp; <a href="https://yadi.sk/i/6_NKQn0cCvFLVQ"> Dialogue systems, лекция – Вячесляв Алипов 07-11-2019.mp4
+ </A> |
+&emsp; &ensp; (<a href="https://yadi.sk/i/6Sbu_oja9h_QZw"> Transfer learning Multi-task learning in NLP - Elena Voita от 08.11.2018.mp4</A> )|<br>
+
+&emsp; <a href="https://yadi.sk/i/H9ysab5AiSrM4Q"> Dialogue – Федор Ратников от 22.11.18.mp4 </A> |
+&emsp; &ensp; ( <a href="https://yadi.sk/i/AGgnMxu_UvpOsg"> Named EntityRecognition –Федор Ратников от 08.11.18.mp4 </A> )|<br>
+
+
+
+
+<a href="https://github.com/yandexdataschool/nlp_course/tree/2019/week09_nmt"> 2019/week09_nmt </A> |<br>
+&emsp; NO VIDEO for 2019 
+&emsp; &ensp; ( <a href="https://yadi.sk/i/MnuyuCSAOJainw"> Domain adaptation лекция - Boris Kovarsky от 15.11.2018.mp4 </A> )|<br>
+&emsp; NO VIDEO for 2019 
+&emsp; &ensp; ( <a href="https://yadi.sk/i/15ApU2_cTFbL1g"> Domain adaptation семинар - Фёдор Ратников от 15.11.2018.mp4</A> )|<br>
+
+
+<a href="https://github.com/yandexdataschool/nlp_course/tree/2019/week10_asr"> 2019/week10_asr </A> |<br>
+&emsp; <a href="https://yadi.sk/i/PRRQpGzRtUDFUg"> ASR Features – Андрей Жигунов от 21.11.19.mp4</A> |
+&emsp; &ensp; ( <a href="https://yadi.sk/i/veiL1U9KhiYFlA"> Dialogue systems – Elena Voita от 22.11.18.mp4</A> )|<br>
+&emsp; <a href="https://yadi.sk/i/VvqYneX2G2bWlw"> Speech Recognition – Pavel Bogomolov от 21.11.19.mp4 </A> |
+&emsp; &ensp; ( <a href="https://yadi.sk/i/H9ysab5AiSrM4Q"> Dialogue – Федор Ратников от 22.11.18.mp4</A> )|<br>
+&emsp; <a href="https://yadi.sk/i/qaIGDE1G7t4Elg"> Voice Command Recognition – Федор Ратников от 21.11.19.mp4</A> |
+&emsp; &ensp; ( <a href="https://yadi.sk/i/c1pbEa0P3Up6jz"> DSSM - Александр Панин 25.04.2018.mp4</A> )|<br>
+
+
+
+
+<a href="https://github.com/yandexdataschool/nlp_course/tree/2019/week11_tts"> 2019/week11_tts </A> |<br>
+&emsp; <a href="https://yadi.sk/i/bXEimWhiCwvDBQ"> Generative models – Федор Ратников от 29.11.18.mp4</A> |<br>
+&emsp; &ensp; ( <a href="https://yadi.sk/i/bXEimWhiCwvDBQ"> Generative models – Федор Ратников от 29.11.18.mp4</A> )|<br>
+
+
+&emsp; <a href="https://yadi.sk/i/31aOtnMUgYbblA"> Un(semi)-supervised word translation learning – борис Коварский от 29.11.18.mp4 </A> |<br>
+
+
+<a href="https://github.com/yandexdataschool/nlp_course/tree/master/week12_summarization"> 12 master/week12_summarization</A> |<br>
+&emsp; <a href="https://yadi.sk/i/DYRl1sxGK5fyKA">Text summarization – Elena Voita от 06.12.18.mp4 </A> |<br>
+
+<a href=""> </A> |<br>
+<a href=""> Лена - Информационная Геометрия </A> |<br>
+<a href="https://yandexdataschool.ru/edu-process/nlp-week"> Yandex NLP week </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+
+
+</div>
+</a>
+
+<hr>
+<hr>
+
+
+<a name="CLASS">
+<div id="CLASS">
+<p>CLASS:<br>
+<a href="http://mccormickml.com/"> Chris McCormick   http://mccormickml.com/ </A> |<br>
+HVASS: <br>
+<a href="http://www.hvass-labs.org/"> http://www.hvass-labs.org/ </A> |<br>
+<a href="https://www.youtube.com/playlist?list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ"> HVASS Youtube Videos </A> |<br>
+<br>
+YANDEX:<br>
+<a href="https://github.com/yandexdataschool/"> yandexdataschool/ </A> |<br>
+<a href="https://github.com/yandexdataschool/nlp_course"> Yandex NLP course on github </A> |<br>
+<a href="https://github.com/KirillTushin/nlp_course_yandex"> Yandex NLP course SOLUTIONS (K.Tushin) </A> |<br>
+<a href="https://github.com/yandexdataschool/Practical_RL"> yandexdataschool/Practical_RL </A> |<br>
+<a href="https://github.com/sshkhr/Practical_RL"> SOLUTION: sshkhr/Practical_RL </A> |<br>
+<br>
+Nice KAGGLE Courses: <br>
+<a href="https://www.kaggle.com/learn/intermediate-machine-learning"> Alexis Cook: Intermediate Machine Learning </A> |<br>
+<a href="https://www.kaggle.com/alexisbcook/pipelines"> alexisbcook/pipelines </A> |<br>
+<a href="https://www.kaggle.com/learn/natural-language-processing?utm_medium=email&utm_source=intercom&utm_campaign=nlp-course-launch"> Dan Becker and Mat Leonard Kaggle MiniCourse: Natural Language Processing </A> |<br>
+<a href="https://www.youtube.com/watch?v=mPFq5KMxKVw"> Dan Becker: transfer-learning (youtube) </A> |<br>
+<a href="https://www.kaggle.com/dansbecker/transfer-learning"> Dan Becker: transfer-learning</A> |<br>
+<a href="https://www.kaggle.com/dansbecker/underfitting-and-overfitting"> Dan Becker: Underfitting and Overfitting  </A> |<br>
+
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<br>
+iPavlov.AI:<br>
+<a href="http://edu.ipavlov.ai/NLP36/"> edu.ipavlov.ai: занятия курса DL in NLP </A> |<br>
+<a href="https://github.com/deepmipt/NLPCourseBot"> NLPCourseBot </A> |<br>
+
+<br> Py Class from MFTI:<br>
+<a href="http://judge.mipt.ru/mipt_cs_on_python3/"> курс: Информатика. Алгоритмы и структуры данных на Python 3.
+(05.09.2017, Хирьянов Тимофей Фёдорович)</A> |<br>
+<a href="https://www.youtube.com/watch?v=KdZ4HF1SrFs"> Алгоритмы на Python 3. Лекция №1 </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+
+
+<br>
+HSE/VSE NLP like: 
+<a href="https://github.com/gameofdimension/aml-nlp/blob/master/week4/week4-seq2seq.ipynb"> Game of Dimension (github) </A> |<br>
+<a href="https://chatbotslife.com/full-tutorial-on-how-to-create-and-deploy-a-telegram-bot-using-python-69c6781a8c8f"> Full Tutorial On How to Create and Deploy a Telegram Bot using Python </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href="http://qaru.site/questions/152411/doc2vec-how-to-get-document-vectors"> qaru: demo of d2v with gensim </A> |<br>
+
+<p> VSE NLP PROJECTS: check out numerous blogs and newsletters (e.g. http://newsletter.ruder.io/), EMNLP and ACL papers, or attent one of NLP summer schools (e.g. http://lxmls.it.pt/).<p>
+<a href="https://www.youtube.com/watch?v=8aeoTryJqyo"> Алексей (Code or Die) : Как создать телеграм бота за 20 минут (telegram/python/Amazon AWS) </A> |<br>
+<a href="https://github.com/abesmon/ivan-petrov-bot"> GitHub: abesmon/ivan-petrov-bot </A> |<br>
+<a href="https://www.coursera.org/learn/language-processing">Coursera: main course page </A> |
+<a href="https://www.coursera.org/learn/language-processing/supplement/27CC6/getting-started-with-practical-assignments"> Instructions for wk1</A> |<br>
+<a href="https://github.com/hse-aml/natural-language-processing"> github: Natural Language Processing course resources + Running on Google Colab</A> |<br>
+<a href="https://github.com/hse-aml/natural-language-processing/blob/master/AWS-tutorial.md"> Github/NLP: Tutorial for setting up an AWS Virtual Machine </A> |<br>
+<a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-launch-instance"> AWS: Getting Started with Amazon EC2 Linux Instances</A> |<br>
+<a href="https://core.telegram.org/bots/api"> Telegram Bot API </A> (TxBot: t.me/txplanobot, HTTP API: xxx-look-somewhere-else-xxx ) |<br>
+
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+
+<hr>
+
+---------- 
+
+<a href="https://colab.research.google.com/github/yandexdataschool/nlp_course/blob/master/week01_embeddings/seminar.ipynb"> COLAB: Seminar 1: Fun with Word Embeddings (3 points) </A> |<br>
+---------- 
+
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href="https://github.com/ageron/handson-ml2"> Aurélien Géron book: Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow </A> |<br>
+<a href="https://github.com/fchollet/deep-learning-with-python-notebooks"> Francois Chollet book: 
+deep-learning-with-python-notebooks </A> |<br>
+<a href=""> </A> |<br>
+<a href="https://www.youtube.com/watch?v=h6ajHkgM3ZU&list=PLe5rNUydzV9Q01vWCP9BV7NhJG3j7mz62"> [DeepBayes2018] </A> |<br>
+<a href="https://github.com/bayesgroup/deepbayes-2018"> [DeepBayes2018] github </A> |<br>
+
+<a href="https://www.youtube.com/watch?v=S56OBkUqxHM&feature=youtu.be"> Геннадий Штех. Настоящее и будущее алгоритмов на текстах NLP и production </A> |<br>
+<a href="https://github.com/ShT3ch/public_workshop"> Геннадий Штех github </A> |<br>
+
+<a href="https://www.youtube.com/watch?v=0EtD5ybnh_s&feature=youtu.be"> Martin Andrews @ reddragon.ai: Language Learning with BERT - TensorFlow and Deep Learning Singapore </A> |<br>
+<a href="https://www.youtube.com/watch?v=OYygPG4d9H0&feature=youtu.be"> 
+Ivan Bilan: Understanding and Applying Self-Attention for NLP | PyData Berlin 2018 </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href="https://www.kaggle.com/learn/intro-to-machine-learning?utm_medium=email&utm_source=intercom&utm_campaign=beginner-friendly-competition-announcement"> Kaggle: Intro to ML </A> |<br>
+
+<a href="https://www.kaggle.com/learn/intermediate-machine-learning?utm_medium=email&utm_source=intercom&utm_campaign=beginner-friendly-competition-announcement"> Kaggle: Intermediate ML </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href="https://app.slack.com/client/T040HKJE3/C04N3UMSL/thread/C04N3UMSL-1567427465.220500"> курс желательно с практикой по нлп  </A> |<br>
+
+<br>
+Yandex Stixi: <br>
+<a href="https://events.yandex.ru/lib/talks/7010/"> Как научить нейросеть генерировать стихи </A> |<br>
+<a href="https://events.yandex.ru/events/ds/"> Конференции, митапы, семинары и другие события, посвященные data science. </A> |<br>
+<a href="https://github.com/IlyaGusev/deep-nlp-seminars/blob/master/seminar_02/embeddings.ipynb"> Word Emb Code Gusev  </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href="https://www.youtube.com/watch?v=UC9msiP40jg&list=PLJOzdkh8T5kq7O4f6_d_zBsgOqayrKxzP"> Yandex Data School: 64 video lectures </A> |<br>
+<br>
+STIHI.Ru corpus Taiga<br>
+
+TravisCI
+Keras -> PyTorch + AllenNLP
+Автопоэт Яндекса / Нейропоэт Лёши Тихонова
+Яндекс.РефератыПрограмма-поэт Каганова
+
+
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<br>
+<a href="https://github.com/shmam/BeepoBot"> BeepoBot in js </A> |<br>
+<a href="https://www.youtube.com/watch?v=OypPjvm4kiA&t=109s"> machead: How I'm Learning AI and Machine Learning </A> |<br>
+</div>
+</a>
+
+<hr>
+<hr>
+
+
+
+
+<a name="RNN_LSTM">
+<div id="RNN_LSTM">
+<p> RNN_LSTM <br>
+RNN, Text Generation:
+<a href="https://github.com/tensorflow/docs/blob/master/site/en/tutorials/sequences/text_generation.ipynb"> github: Text generation using a RNN with eager execution </A> |<br>
+<a href="https://colab.research.google.com/github/tensorflow/tensorflow/blob/master/tensorflow/contrib/eager/python/examples/generative_examples/text_generation.ipynb"> Text Generation using a RNN </A> |<br>
+
+LSTM: <br>
+<a href="https://hackernoon.com/understanding-architecture-of-lstm-cell-from-scratch-with-code-8da40f0b71f4"> Understanding architecture of LSTM cell from scratch with code</A> |<br>
+<a href="https://arxiv.org/pdf/1806.07366.pdf"> Paper on ODE-NET</a> |<br>
+<a href="https://towardsdatascience.com/sentence-classification-using-bi-lstm-b74151ffa565">Sentence classification using Bi-LSTM </A> |<br>
+
+Language Models:<br>
+<a href="https://github.com/openai/gpt-2"> OpenAI's GPT-2 Github </a> |<br>
+<a href="https://openai.com/blog/better-language-models/"> OpenAI's GPT-2 Blogs </a> |<br>
+
+CNN:<br>
+<a href="https://towardsdatascience.com/cnn-architectures-a-deep-dive-a99441d18049"> CNN Architectures </A> |<br>
+<a href=""> </A> |
+<a href=""> </a> |<br>
+<a href=""> </A> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </A> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+</div>
+</a>
+
+
+
+
+
+<p>
+manuel amunategui / people:
+<a href="https://www.viralml.com/video-content.html?v=2hKGeDStUOY&Title=My%20Writing%20&%20Publishing%20Stack%20-%20Tools%20to%20Get%20Published%20-%20Part%202">
+Publishing Part2 </A> |
+<a href="http://www.viralml.com/mueller"> "Unredacted" Muller Report </A> |
+<a href="https://www.viralml.com/#Tools"> Tools - lots of short videos  </A> |
+<a href=""> </A> |
+<a href="https://www.youtube.com/watch?v=C95FgeekrSw"> здесь с 14:30 бабушкин рассказывает о ДС проектах в х5 - очень любопытно </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href="https://towardsdatascience.com/training-machine-learning-models-online-for-free-gpu-tpu-enabled-5def6a5c1ce3"> 
+Training machine learning models online for free(GPU, TPU enabled)!!!</A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+
+
+</div>
+</a>
+<hr>
+<hr>
+
+
+<a name="Research_Google">
+<div id="Research_Google">
+<p> Research.Google.Com: <br>
+<a href="https://colab.research.google.com/notebooks/welcome.ipynb#recent=true"> Colab Welcome </A> |
+<a href="https://research.google.com/seedbank/"> SeedBank</A> |
+<a href="https://research.google.com/seedbank/seeds?keyword=text"> NLP seeds </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+
+<br> COLAB Acceleration: <br>
+COLAB enable GPU/TPU:  Edit -> Notebook settings -> H/W accelerator<br>
+or VIEW -> NOTEBOOK INFO -> Modify Notebook Settings -> H/W Accelerator<br>
+<p> COLAB Acceleration demos: 
+<a href="https://colab.research.google.com/notebooks/gpu.ipynb#scrollTo=QXRh0DPiZRyG">COLAB with GPU demo </A> |
+<a href="https://colab.research.google.com/notebooks/tpu.ipynb"> Enabling TPU at Colab </A> |
+
+<p> COLAB Text Gen:
+<a href="https://colab.research.google.com/github/tensorflow/tpu/blob/master/tools/colab/shakespeare_with_tpu_and_keras.ipynb"> Predict Shakespeare with Cloud TPUs and Keras </A> |<br>
+Replace Shakespeare text with this: http://www.gutenberg.org/cache/epub/59514/pg59514.txt<br>
+seed_txt = 'He realized, even as he spoke, that the telling had changed even since his own youth. As a boy of ten'<br>
+
+<p>
+How to run external notebook in COLAB<br>
+<br>
+1/ File -> New Py3 Ntbk<br>
+2/ File -> Upload Ntbk<br>
+        -> Choose File (if local)<br>
+        -> Github -> https://github.com/ftk1000/style_xfer/blob/master/style_xfer_demo.ipynb  <br>
+        -> GoogleDrive<br>
+
+
+<p>
+
+<p> COLAB Style Transfer:
+<a href="https://colab.research.google.com/github/tensorflow/models/blob/master/research/nst_blogpost/4_Neural_Style_Transfer_with_Eager_Execution.ipynb#scrollTo=X8w8WLkKvzXu"> Neural Style Transfer Code on Colab </A> |
+
+<p> COLAB/Accessing Local file system from google colab:
+<a href="https://stackoverflow.com/questions/48376580/google-colab-how-to-read-data-from-my-google-drive"> Stackoverlow suggestions </A> |
+<a href="https://colab.research.google.com/notebooks/io.ipynb#scrollTo=0ENMqxq25szn"> Google's suggestions </A> |
+<a href="https://drive.google.com/file/u/0/d/1srw_HFWQ2SMgmWIawucXfusGzrj1_U0q/edit"> One example not accessible from vz  </A> |
+<a href="https://myaccount.google.com/data-and-personalization"> myaccount.google.com </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href="https://research.google.com/seedbank/"> research.google.com/seedbank/ </A> |
+<a href="https://towardsdatascience.com/training-machine-learning-models-online-for-free-gpu-tpu-enabled-5def6a5c1ce3"> 
+Training machine learning models online for free(GPU, TPU enabled)!!!</A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+</div>
+</a>
+
+<hr>
+<hr>
+
+
+
+<hr>
+<hr>
+<a name="COLAB">
+<div id="COLAB">
+<p> COLAB:<br>
+
+</div>
+</a>
+
+
+
+
+<hr>
+<p>
+<p> UDACITY: 
+<a name="UDACITY">
+<div id="UDACITY">
+
+<a href="https://classroom.udacity.com/courses/ud187/lessons/ff58baf7-22c2-4052-9f9f-a8b2415ba7df/concepts/d1fd8523-2e59-4f3b-8e0c-cfa0a636760b"> 
+Intro to TensorFlow for Deep Learning byTensorFlow. This course is a practical approach to deep learning for software developers</A> |
+
+<a href="https://colab.research.google.com/github/tensorflow/examples/blob/master/courses/udacity_intro_to_tensorflow_for_deep_learning/l01c01_introduction_to_colab_and_python.ipynb"> Udacity Intro to TF Colab link </A> |
+
+<a href="https://colab.research.google.com/github/tensorflow/examples/blob/master/courses/udacity_intro_to_tensorflow_for_deep_learning/l02c01_celsius_to_fahrenheit.ipynb"> TF: C2F </A> |
+
+<a href="https://www.youtube.com/watch?v=IpGxLWOIZy4"> A Friendly Introduction to Machine Learning (youtube video) </A> |
+<a href=""> </A> |<br>
+<a href="https://www.youtube.com/watch?v=BR9h47Jtqyw"> A friendly introduction to Deep Learning and Neural Networks </A> |<br>
+
+
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+<a href=""> </A> |
+
+
+</div>
+</a>
+
+<hr>
+
+
+
+<a name="CONFERENCE">
+<div id="CONFERENCE">
+<p>
+CONFERENCE:
+<a href="https://colab.research.google.com/notebooks/welcome.ipynb#recent=true">colab.research.google.com </A> |
+<a href="http://neuralnetworksanddeeplearning.com/chap5.html"> Read Mike's book</A> |
+<a href="https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks/"> intro to CNN </A> |
+<a href="http://ruder.io/a-review-of-the-recent-history-of-nlp/"> keep reading Ruder's blog  </A> |
+<a href=""> </A> |
+<br>
+<a href=""> </A> |
+<a href=""> </A> |
+<a href="https://github.com/yandexdataschool/nlp_course"> Yandex NLP course on github </A> |
+<a href="https://github.com/yandexdataschool/nlp_course/blob/master/resources/slides/lecture1_word_embeddings.pdf"> Elena Voita Word Embedding </A> |
+<a href="https://keras.io/visualization/"> keras.io/visualization/</A> |
+</div>
+</a>
+
+
+<hr>
+<hr>
+<a name="GANS">
+<div id="GANS">
+<p> GANs:<br>
+<a href="https://yadi.sk/i/bXEimWhiCwvDBQ"> Generative models – Федор Ратников от 29.11.18.mp4</A> |
+<a href="https://openai.com/blog/generative-models/"> Open AI Generative Models BLOG</A> |
+<a href="https://bit.ly/2zqYI9F"> tons of GANs on github </A> |
+<a href="https://arxiv.org/abs/1406.2661"> Original paper: Generative Adversarial Nets, Ian J. Goodfellow et al 2014 </A> |
+
+
+<a href="https://machinelearningmastery.com/how-to-implement-wasserstein-loss-for-generative-adversarial-networks/"> 
+Jason Brownlee: 
+How to Implement Wasserstein Loss for Generative Adversarial Networks</a> |
+<a href="https://myurasov.github.io/2017/09/24/wasserstein-gan-keras.html"> M Yurasov: Wasserstein GAN in Keras </a> |
+<a href="https://machinelearningmastery.com/how-to-code-a-wasserstein-generative-adversarial-network-wgan-from-scratch/"> Jason Brownlee: How to Develop a Wasserstein Generative Adversarial Network (WGAN) From Scratch
+</a> |
+<a href="https://machinelearningmastery.com/how-to-develop-an-auxiliary-classifier-gan-ac-gan-from-scratch-with-keras/"> 
+Jason Brownlee: 
+How to Develop an Auxiliary Classifier GAN (AC-GAN) From Scratch with Keras</a> |
+<a href=""> </a> |
+<a href="https://arxiv.org/abs/1710.04087"> Word Translation Without Parallel Data by Alexis Conneau et al</a> |
+<a href=""> </a> |
+
+<br> GAN Portrait of Edmond Belamy :<br>
+<a href="https://www.christies.com/features/A-collaboration-between-two-artists-one-human-one-a-machine-9332-1.aspx"> www.christies.com </a> |
+<a href="http://obvious-art.com/"> http://obvious-art.com/ </a> |
+<a href="https://arxiv.org/pdf/1701.00160.pdf"> NIPS 2016 Tutorial: Generative Adversarial Networks, Ian Goodfellow</a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+</div>
+</a>
+
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+<a href=""> </a> |
+
+
+
+
+
+
+
+
+<hr>
+<hr>
+
+<a name="EMBEDDING_EMBEDDING">
+<div id="EMBEDDING_EMBEDDING">
+<p>EMBEDDING_EMBEDDING:<br>
+
+<a href="https://tfhub.dev/google/universal-sentence-encoder/4"> Universal Sentence Encode v4  https://tfhub.dev/google/universal-sentence-encoder/4</a> | <br>
+<a href="https://tfhub.dev/google/universal-sentence-encoder/3"> Universal Sentence Encode v3  https://tfhub.dev/google/universal-sentence-encoder/3</a> | <br>
+<a href="https://arxiv.org/abs/1803.11175"> https://arxiv.org/abs/1803.11175  Universal Sentence Encoder by Daniel Cer, et al  </a> | <br>
+
+<a href="https://www.kaggle.com/cpmpml/spell-checker-using-word2vec"> Kaggle Notebook by CPMP: Spell Checker using Word2vec</a> |<br>
+<a href="https://www.kaggle.com/pierremegret/gensim-word2vec-tutorial"> Kaggle: gensim-word2vec-tutorial</a> |<br>
+
+<br> ====> Word2Vec:<br>
+<a href="https://arxiv.org/abs/1301.3781"> "Efficient Estimation of Word Representations in Vector Space", by
+Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean, 2013</a> |<br>
+<a href="https://arxiv.org/pdf/1405.4053.pdf">  "Distributed Representations of Sentences and Documents", by Quoc Le, Tomas Mikolov, 2014 </A> |<br>
+<a href="http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/">Chris McCormick: Word2Vec Tutorial - The Skip-Gram Model </A> |<br>
+<br>
+
+<a href="https://nlp.stanford.edu/projects/glove/"> GloVe webpage: https://nlp.stanford.edu/projects/glove/</a> |<br>
+<a href=" https://nlp.stanford.edu/pubs/glove.pdf"> GloVe paper:  https://nlp.stanford.edu/pubs/glove.pdf</a> |<br>
+<a href="https://streamhacker.com/2014/12/29/word2vec-nltk/"> Jacob Perkins: word2vec with NLTK </a> |<br>
+<a href="https://code.google.com/archive/p/word2vec/"> google word2vec </A> |<br>
+<a href="https://github.com/svn2github/word2vec"> github clone of an SVN repository at http://word2vec.googlecode.com/svn/trunk. </a> |<br>
+<a href="https://github.com/danielfrg/word2vec"> danielfrg/word2vec </a> |<br>
+<a href="https://nbviewer.jupyter.org/github/danielfrg/word2vec/blob/master/examples/word2vec.ipynb"> Danilefrg: word2vec.ipynb </a> |<br>
+<a href=""> </a> |<br>
+<a href="https://youtu.be/U0LOSHY7U5Q"> Льва Константиновского: Практическое занятие по обработке текста в gensim с помощью алгоритма word2vec </a> |<br>
+<a href="https://www.aclweb.org/anthology/Q15-1016/"> Improving Distributional Similarity with Lessons Learned from Word Embeddings, by Omer Levy, Yoav Goldberg, Ido Dagan</a> |<br>
+
+<p>
+====> W2V & GloVe Videos:<br> 
+<a href="https://youtu.be/hjx-zwVdfjc">W2V by Andrew Ng </a> |
+<a href="https://youtu.be/UqRCEmrv1gQ">W2V from Semicolon ; (start from min 4:00) </a> |
+<a href="https://youtu.be/Qu-cvY4HP4g"> NER Example by Andrew Ng </a> |
+<a href="https://youtu.be/xtPXjvwCt64"> Lang Model with Embedding by A.Ng </a> |
+
+<a href="https://youtu.be/64qSgA66P-8">W2V in TF by a Korean Dude </a> |
+<a href=""> </a> |
+<a href="https://youtu.be/QyrUentbkvw"> W2V by Jordan Boyd-Graber </a> |
+<a href="https://youtu.be/aCLMeJuGx9k"> W2V video from the dude (Jordan Boyd-Graber) again </a> |
+
+<a href="https://youtu.be/Kc2IXCpdEoM"> GloVe by The LazyProgrammer (Nice!)</a> |
+<a href="https://youtu.be/Bzmforcxp8w"> GloVe by A.Ng</a> |
+
+<p>
+====> Other resources:<br>
+
+<a href="https://colab.research.google.com/notebooks/mlcc/intro_to_sparse_data_and_embeddings.ipynb#scrollTo=jGWqDqFFL_NZ"> Embedding Demo on COLAB </A> |<br>
+<a href="https://www.youtube.com/watch?v=64qSgA66P-8"> Minsuk Heo video: Word2Vec (TF implementation) </A> |<br>
+<a href="http://qaru.site/questions/152411/doc2vec-how-to-get-document-vectors"> qaru: demo of d2v with gensim </A> |<br>
+<a href="http://qaru.site/questions/86593/how-to-calculate-the-sentence-similarity-using-word2vec-model-of-gensim-with-python"> qaru.site: ЗАМЕЧАТЕЛЬНОЕ (!) обсуждение doc2vec, par2vec etc</A> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+
+<p>
+==> /STARSPACE MODEL:
+<br>
+<a href="https://rdrr.io/cran/ruimtehol/man/starspace_save_model.html"> starspace_save_model: Save a starspace model as a binary or tab-delimited TSV file </A> |<br>
+<a href="https://github.com/facebookresearch/StarSpace"> facebookresearch/StarSpace </A> |<br>
+<a href="https://github.com/cran/ruimtehol"> StarSpace in R (really good!) </A> |<br>
+<a href="http://qaru.site/questions/15259757/how-to-load-embeddings-in-tsv-file-generated-from-starspace"> how-to-load-embeddings-in-tsv-file-generated-from-starspace </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href="https://www.youtube.com/watch?v=5PL0TmQhItY"> macheads101: Word Embeddings  https://embeddings.macheads101.com </A> |<br>
+<a href="https://www.youtube.com/watch?v=6xPnEh_tJEc"> Beyond word2vec: GloVe, fastText, StarSpace - Konstantinos Perifanos ARGOS </A> |<br>
+<a href="https://www.youtube.com/watch?v=Eku_pbZ3-Mw"> WE by Daniel Preoţiuc-Pietro , Penn Positive Psychology Center</A> |<br>
+
+
+<p> WORD EMBEDDINGS:
+<a href="https://research.google.com/seedbank/seed/pretrained_word_embeddings"> research.google.com/seedbank/seed/pretrained_word_embeddings </A> |<br>
+<a href="https://colab.research.google.com/drive/1r8nZitVTd9grTGepUE04mu7eao_7dpnZ#forceEdit=true&offline=true&sandboxMode=true&scrollTo=gZRWEtDzC_zy"> colab notebook </A> |<br>
+<a href="https://www.tensorflow.org/tutorials/representation/word2vec"> Vector Representations of Words using TF </A> |<br>
+<a href="https://medium.com/artists-and-machine-intelligence/ami-residency-part-1-exploring-word-space-andprojecting-meaning-onto-noise-98af7252f749"> or this series of blog posts by Memo Akten </A> |<br>
+<a href="https://medium.com/deeper-learning/glossary-of-deep-learning-word-embedding-f90c3cec34ca"> glossary of deep learning word embedding</A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<p> WORD EMBEDDINGS DEMOS:
+<a href="http://bionlp-www.utu.fi/wv_demo/">filtered demo </A> |<br>
+<a href="http://turbomaze.github.io/word2vecjson/"> unfiltered demo </A> |<br>
+<a href="https://github.com/memo/ofxMSAWord2Vec"> Memo Atken code: memo/ofxMSAWord2Vec </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href="http://www.thushv.com/natural_language_processing/word2vec-part-1-nlp-with-deep-learning-with-tensorflow-skip-gram/"> Word2Vec (Part 1): NLP With Deep Learning with Tensorflow (Skip-gram) </a> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+
+<a href=""> </A> |<br>
+
+
+<p> doc2vec:
+<a href="https://rare-technologies.com/doc2vec-tutorial/">Radim Rehurek: Doc2vec tutorial </A> |<br>
+<a href="https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/doc2vec-IMDB.ipynb"> Gensim Doc2Vec Tutorial on the IMDB Sentiment Dataset</A> |<br>
+<a href=""> </A> |<br>
+<a href="https://www.youtube.com/watch?v=zFScws0mb7M"> Robert Meyer - Analysing user comments with Doc2Vec and Machine Learning classification </A> |<br>
+<a href="https://www.youtube.com/watch?v=N4DimsHMu4g&list=PLYLrWv8e1ExV6sTZkYfje_Guf8-JYzqiu"> combo of 4 youtube videos </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+
+
+
+<p> StreamHacker :<br>
+<a href="https://streamhacker.com/2018/11/13/nlp-log-analysis-tokenization/"> nlp-log-analysis-tokenization </A> |<br>
+<a href="https://streamhacker.com/2009/02/23/chunk-extraction-with-nltk/"> chunk-extraction-with-nltk </A> |<br>
+<a href="https://streamhacker.com/2014/12/29/word2vec-nltk/"> word2vec-nltk </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+
+</div>
+</a>
+
+
+
+
+
+
+
+
+<hr>
+<hr>
+<a name="CRF">
+<div id="CRF">
+<p> CRF (Conditional Random Field):
+<br>
+NER is a word classification problem where each word of the sentence has to be classified among the labelled tags.
+<br>
+<a href="https://www.chokkan.org/software/crfsuite"> www.chokkan.org/software/crfsuite CRFsuite: A fast implementation of Conditional Random Fields (CRFs)</A> |<br>
+<a href="https://github.com/chokkan/crfsuite"> github.com/chokkan/crfsuite - C++ implementation</A> |<br>
+<a href="https://github.com/aleju/ner-crf"> github.com/aleju/ner-crf - NER implementation of crfsuite </A> |<br>
+<a href="https://github.com/scrapinghub/python-crfsuite"> github.com/scrapinghub/python-crfsuite - Cython implementation </A> |<br>
+<a href="https://github.com/lancifollia/crf"> github.com/lancifollia/crf pure-Python implementation </A> |<br>
+
+<br>         
+         
+<a href="https://github.com/TeamHG-Memex/sklearn-crfsuite"> github.com/TeamHG-Memex/sklearn-crfsuite - python-crfsuite wrapper which provides interface simlar to scikit-learn </A> |<br>
+
+<a href="https://eli5.readthedocs.io/en/latest/tutorials/sklearn_crfsuite.html"> eli5.readthedocs.io/en/latest/tutorials/sklearn_crfsuite.html - NER example 1 with sklearn-crfsuite </A> |<br>
+
+<a href="https://towardsdatascience.com/named-entity-recognition-and-classification-with-scikit-learn-f05372f07ba2"> towardsdatascience.com/named-entity-recognition-and-classification-with-scikit-learn-f05372f07ba2 - NER example 2 with sklearn-crfsuite </A> |<br>
+
+<a href="https://www.depends-on-the-definition.com/named-entity-recognition-conditional-random-fields-python/"> www.depends-on-the-definition.com/named-entity-recognition-conditional-random-fields-python/  - NER example 3 with sklearn-crfsuite</A> |<br>
+<br>
+Keras biLSTM-CRF:<br>
+<a href="https://arxiv.org/pdf/1508.01991v1.pdf"> arxiv.org/pdf/1508.01991v1.pdf - biLSTM-CRF </A> |<br>
+<a href="https://github.com/keras-team/keras-contrib/tree/master/keras_contrib/layers"> github.com/keras-team/keras-contrib/tree/master/keras_contrib/layers - Keras implementation biLSTM-CRF </A> |<br>
+
+<a href="https://medium.com/@rohit.sharma_7010/a-complete-tutorial-for-named-entity-recognition-and-extraction-in-natural-language-processing-71322b6fb090"> medium.com/@rohit.sharma_7010/a-complete-tutorial-for-named-entity-recognition-and-extraction-in-natural-language-processing-71322b6fb090 - EXAMPLE 1 of Keras implementation </A> |<br>
+
+<a href="https://appliedmachinelearning.blog/2019/04/01/training-deep-learning-based-named-entity-recognition-from-scratch-disease-extraction-hackathon/"> appliedmachinelearning.blog/2019/04/01/training-deep-learning-based-named-entity-recognition-from-scratch-disease-extraction-hackathon/ - EXAMPLE 2 of Keras implementation </A> |<br>
+
+
+<br>
+<a href="http://blog.echen.me/2012/01/03/introduction-to-conditional-random-fields/"> blog.echen.me/2012/01/03/introduction-to-conditional-random-fields/</A> |<br>
+
+<a href="https://www.cs.ubc.ca/~murphyk/MLbook/pml-print3-ch19.pdf"> Undirected graphical models (Markov random fields) From
+"Machine Learning: a Probabilistic Perspective" by Kevin Patrick Murphy </A> |<br>
+<a href="https://www.amazon.com/Probabilistic-Networks-Expert-Systems-Computational/dp/0387987673"> Book by Robert G. Cowell et al "Probabilistic Networks and Expert Systems"</A> |<br>
+<a href="https://en.wikipedia.org/wiki/Markov_random_field"> en.wikipedia.org/wiki/Markov_random_field </A> |<br>
+<a href="https://en.wikipedia.org/wiki/Conditional_random_field"> en.wikipedia.org/wiki/Conditional_random_field </A> |<br>
+<a href="https://en.wikipedia.org/wiki/Clique_(graph_theory)"> en.wikipedia.org/wiki/Clique_(graph_theory) </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+
+
+
+
+<hr>
+<hr>
+<a name="KAGGLE_CURRENT_COMP">
+<div id="KAGGLE_CURRENT_COMP">
+<p> KAGGLE_CURRENT_COMP:
+<br>
+<a href="https://github.com/Kaggle/kaggle-api">https://github.com/Kaggle/kaggle-api </A> |<br>
+
+<p>
+KAGGLE SUBMISSION : <br>
+<a href="https://www.youtube.com/watch?v=1G6eehnBUwI"> Submitting Predictions to Kaggle Competitions </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href="https://www.kaggle.com/c/nlp-getting-started/notebooks"> Real or Not? NLP with Disaster Tweets -> Notebooks ->
+SELECT A NOTEBOOK AND CLICK ON IT (eg Bert Starter)  ->  Click on OUTPUT on the LEFT -> Select OUTPUT FILE(s) -> Submit to Competition </A> |<br>
+<a href="https://www.kaggle.com/c/nlp-getting-started/discussion"> https://www.kaggle.com/c/nlp-getting-started/discussion</A> |<br>
+
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+
+
+
+<hr>
+<hr>
+<a name="NLP_VIDEOS">
+<div id="NLP_VIDEOS">
+<p> NLP_VIDEOS:
+<br>
+
+<a href="https://www.youtube.com/watch?v=FLZvOKSCkxY&list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL"> Sentdex: NLTK with Python 3 for Natural Language Processing 21 videos </A> |<br>
+<a href="https://pythonprogramming.net/part-of-speech-tagging-nltk-tutorial/"> pythonprogramming.net video: Part of Speech Tagging with NLTK </A> |<br>
+<a href="https://pythonprogramming.net/chunking-nltk-tutorial/?completed=/part-of-speech-tagging-nltk-tutorial/"> 
+pythonprogramming.net video: Chunking - Natural Language Processing With Python and NLTK p.5</A> |<br>
+<br>
+
+
+<a href="https://www.youtube.com/watch?v=3Dt_yh1mf_U&list=PLQiyVNMpDLKnZYBTUOlSI9mi9wAErFtFm"> Natural Language Processing | Dan Jurafsky, Christophe 101 videos </A> |<br>
+<a href="https://www.youtube.com/watch?v=n25JjoixM3I&list=PLLssT5z_DsK8BdawOVCCaTCO99Ya58ryR"> Natural Language Processing [FULL COURSE] | University of Michigan 81 videos </A> |<br>
+<a href="https://www.youtube.com/watch?v=cce8ntxP_XI&list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&index=1"> 
+Rachel Thomas: fast.ai Code-First Intro to Natural Language Processing 19 videos series </A> |<br>
+<a href="https://www.youtube.com/playlist?list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z"> Christopher Manning & Co: CS224N: Natural Language Processing with Deep Learning 20 videos </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+
+
+
+<p>
+<hr>
+<hr>
+<a name="SENTIMENT_ANALYSIS">
+<div id="SENTIMENT_ANALYSIS">
+<p> SENTIMENT_ANALYSIS:
+<br>
+
+<a href="https://towardsdatascience.com/speech-emotion-recognition-with-convolution-neural-network-1e6bb7130ce3"> 
+Reza Chu: Speech Emotion Recognition with Convolutional Neural Network Recognizing Human Emotion from AUDIO Recording </A> |<br>
+
+
+
+
+<p>
+<hr>
+<hr>
+<a name="Punctuation">
+<div id="Punctuation">
+<p> PUNCTUATION:
+<br>
+<a href="http://bark.phon.ioc.ee/punctuator"> PUNCTUATION restoration DEMO: http://bark.phon.ioc.ee/punctuator </A> |<br>
+<a href="https://github.com/ottokart/punctuator2"> Punctuation2 restoration (bLSTM) : https://github.com/ottokart/punctuator2 </A> |<br>
+<a href="https://github.com/mkhon/punctuator2/tree/python3">Py3:  https://github.com/mkhon/punctuator2/tree/python3 </A> |<br>
+<a href="https://github.com/alpoktem/punkProse"> fork from punctuator2 </A> |<br>
+<a href="https://github.com/ottokart/punctuator">punctuator1 by Otto Kart </A> |<br>
+
+<br>
+<a href="https://github.com/vackosar/keras-punctuator">keras-punctuator (CNN) </A> |<br>
+<a href="https://www.youtube.com/watch?v=w-w3QamQIKY"> Václav Košař lecture: 
+Keras Convolutional Text Punctuator Presentation </A> |<br>
+
+<br>
+<a href="https://medium.com/@praneethbedapudi/deepcorrection2-automatic-punctuation-restoration-ac4a837d92d9"> Deepcorrect and deepsegment article:</A> |<br>
+<a href="https://github.com/bedapudi6788/deepcorrect"> deepcorrect (good for periods)</A> |<br>
+<a href="http://bpraneeth.com/projects/deeppunct"> DEMO http://bpraneeth.com/projects/deeppunct</A> |<br>
+<a href="https://github.com/ottokart/sequence-labeler"> https://github.com/ottokart/sequence-labeler </A> |<br>
+<a href="https://github.com/nipunsadvilkar/pySBD (rule-based)">https://github.com/nipunsadvilkar/pySBD (rule-based) </A> |<br>
+<a href="https://github.com/kaituoxu/X-Punctuator"> https://github.com/kaituoxu/X-Punctuator (PyTorch implementation) </A> |<br>
+<a href="https://github.com/fnl/syntok"> https://github.com/fnl/syntok</A> |<br>
+<a href="https://github.com/IsaacChanghau/neural_sequence_labeling">https://github.com/IsaacChanghau/neural_sequence_labeling </A> |<br>
+<a href="https://github.com/LanguageMachines/ucto">https://github.com/LanguageMachines/ucto </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+
+
+<p>
+Good Sentence<br>
+
+<a href="https://datascience.stackexchange.com/questions/37319/algorithms-that-can-determine-whether-a-string-is-an-english-sentence/37664"> determine-whether-a-string-is-an-english-sentence </A> |<br>
+<a href="https://datascience.stackexchange.com/questions/19452/how-to-determine-the-complexity-of-an-english-sentence">determine-the-complexity-of-an-english-sentence </A> |<br>
+<a href="https://github.com/chartbeat-labs/textacy">https://github.com/chartbeat-labs/textacy </A> |<br>
+<a href="https://chartbeat-labs.github.io/textacy/getting_started/quickstart.html#working-with-text"> textacy/getting_started/quickstart.html#working-with-text </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+
+
+
+
+
+
+
+
+
+<hr>
+<hr>
+<a name="TEXT_Summarization">
+<div id="TEXT_Summarization">
+<p> TEXT_Summarization:
+<br>
+<a href="https://hsuwanting.github.io/unified_summ/"> hsuwanting.github.io/unified_summ/</a> |<br>
+<a href="https://www.aclweb.org/anthology/attachments/P18-1013.Presentation.pdf"> P18-1013.Presentation.pdf </a> |<br>
+
+<br>
+Extractive Summarization:<br>
+<a href="https://becominghuman.ai/text-summarization-in-5-steps-using-nltk-65b21e352b65"> 
+Akash Panchal: Text summarization in 5 steps using NLTK: WordFrequency Algorithm</A> |<br>
+<a href="https://stackabuse.com/text-summarization-with-nltk-in-python/"> 
+Usman Malik: Text Summarization with NLTK in Python</A> |<br>
+
+<a href=""> </a> |<br>
+<a href="https://arxiv.org/pdf/1903.10318.pdf"> 2019.09 Yang Liu: Fine-tune BERT for Extractive Summarization </a> |<br>
+<a href="https://github.com/nlpyang/BertSum"> 2019.09: github code: Fine-tune BERT for Extractive Summarization</a> |<br>
+<a href=""> </a> |<br>
+
+
+
+<br>
+Attention based (abstractive) Text Summarization:<br>
+
+
+<a href="https://www.analyticsvidhya.com/blog/2019/06/comprehensive-guide-text-summarization-using-deep-learning-python/"> 
+2019.07 FAravind Pai: Comprehensive Guide to Text Summarization using Deep Learning in Python
+</A> |<br>
+<a href="https://www.kaggle.com/snap/amazon-fine-food-reviews/kernels"> 
+Amazon Fine Food Reviews: (Analyze ~500,000 food reviews from Amazon) :
+https://www.kaggle.com/snap/amazon-fine-food-reviews/kernels</A> |<br>
+<a href="https://github.com/aravindpai/How-to-build-own-text-summarizer-using-deep-learning/blob/master/How_to_build_own_text_summarizer_using_deep_learning.ipynb"> 2019.07 aravindpai: github code: How-to-build-own-text-summarizer-using-deep-learning </A> |<br>
+<a href=""> </A> |<br>
+
+
+<a href="https://deeplearninganalytics.org/text-summarization/"> 2019.07 PRIYA TORONTO: Text Summarization using BERT </A> |<br>
+<a href="https://youtu.be/ogrJaOIuBx4"> 2017 Siraj Raval: How to Make a Text Summarizer - Intro to Deep Learning #10 </A> |<br>
+<a href="https://github.com/llSourcell/How_to_make_a_text_summarizer"> 
+This is the code for "How to Make a Text Summarizer - Intro to Deep Learning #10" by Siraj Raval on Youtube
+</A> |<br>
+<a href="https://github.com/jiexunsee/rudimentary-ai-composer"> A very basic LSTM composer, doesn't compose any proper music for now </A> |<br>
+<a href=""> </A> |<br>
+<a href="https://arxiv.org/ftp/arxiv/papers/1906/1906.04165.pdf"> Leveraging BERT for Extractive Text Summarization on Lectures, by Derek Miller  </a> |<br>
+<a href=""> </A> |<br>
+
+<a href="https://arxiv.org/pdf/1805.06266.pdf"> 2018 Hsu et al: A Unified Model for Extractive and Abstractive Summarization
+using Inconsistency Loss </A> |<br>
+
+<a href="https://github.com/HsuWanTing/unified-summarization"> 2017 github Py 2.7: HsuWanTing/unified-summarization </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+
+
+
+
+
+
+<hr>
+<hr>
+<a name="Allen_NLP">
+<div id="Allen_NLP">
+<p> Allen_NLP:
+<br>
+
+<a href="https://allennlp.org/"> Allen NLP: An open-source NLP research library, built on PyTorch</A> |<br>
+<a href="https://demo.allennlp.org/reading-comprehension"> NLP DEMO: https://demo.allennlp.org/reading-comprehension</A> |<br>
+<a href="https://github.com/allenai/writing-code-for-nlp-research-emnlp2018/blob/master/writing_code_for_nlp_research.pdf"> 
+Slides: Writing Code for NLP Research </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+
+
+
+<br><br>
+
+
+
+<p>
+
+
+
+
+
+
+
+- Adversarial Zoo: arXiv:1406.2661, 1609.03126, 1611.04076, https://bit.ly/2zqYI9F<br>
+- Adversarial Dictionary Learning https://arxiv.org/abs/1710.04087 []<br>
+- Adversarial Domain Adaptation https://arxiv.org/abs/1409.7495 [Unsupervised Domain Adaptation by Backpropagation by Yaroslav Ganin, Victor Lempitsky]<br>
+- Multimodality Problem http://bit.ly/2o404Tz<br>
+- VAE Language Model https:/arxiv.org/abs/1511.06349 <br>
+- VAE features: phrase morphing https://bit.ly/2Q1Gsy3 <br>
+- VAE prototype editor https://arxiv.org/abs/1709.08878 <br>
+- VAE for fast inference in seq2seg (NLP) https://arxiv.org/abs/1803.03382<br>
+- Summary on learning distributions:
+--- MLfit ==>> Pros: Explicit, Stable --- Cons: Slow inference, requires order <br>
+--- GANs  ==>> Pros: Great samples, Fast --- Cons: Implicit, Unstable training <br>
+--- VAEs  ==>> Pros: Explicit, Stable, Fast --- Cons: Blurry samples <br>
+- Hack: https://github.com/soumith/ganhacks<br>
+
+<p>
+
+<p> 
+Chervov:
+<a href="http://www.tylervigen.com/spurious-correlations"> http://www.tylervigen.com/spurious-correlations </A> |<br>
+<a href="https://t.me/sberloga_ds/1457"> LogReg is all you need </A> |<br>
+<a href="https://www.youtube.com/watch?v=5wMAPUrd0ag"> Data Science: Kaggle GRANDMASTER in 6 months? | Pavel Pleskov, Data Nerds </A> |<br>
+<a href="https://www.youtube.com/watch?v=ymSqI0hVj-Q&feature=youtu.be"> 
+Data Scientist: кто нужен бизнесу и как их обучить | Виктор Кантор, Data Mining in Action </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
