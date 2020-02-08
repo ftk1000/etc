@@ -55,8 +55,51 @@ root@33b193ad88a1:/# ls
 bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
 root@33b193ad88a1:/# pwd
 
+
+ctrl+d
+If you have started the container interactively, and are in a bash-like environment, you'd usually type ctrl+d to exit the session. If it's another process running, the combination would be ctrl+c.
+
+
 ========================================
 docker run --detach --publish=80:80 --name=webserver nginx
 http://localhost/
+
+View the details on the container while your web server is running (with docker container ls or docker ps):
+
+$ docker container ls
+CONTAINER ID   IMAGE   COMMAND                  CREATED              STATUS              PORTS                         NAMES
+56f433965490   nginx   "nginx -g 'daemon off"   About a minute ago   Up About a minute   0.0.0.0:80->80/tcp, 443/tcp   webserver
+
+
+Stop and remove containers and images with the following commands. Use the “all” flag (--all or -a) to view stopped containers.
+
+$ docker container ls
+$ docker container stop webserver
+$ docker container ls -a
+$ docker container rm webserver
+$ docker image ls
+$ docker image rm nginx
+
+(base) pauls-MacBook:code-server paulpaul$ docker image ls
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+nginx               latest              2073e0bcb60e        6 days ago          127MB
+ubuntu              latest              ccc6e87d482b        3 weeks ago         64.2MB
+hello-world         latest              fce289e99eb9        13 months ago       1.84kB
+(base) pauls-MacBook:code-server paulpaul$ docker image rm nginx
+Untagged: nginx:latest
+Untagged: nginx@sha256:ad5552c786f128e389a0263104ae39f3d3c7895579d45ae716f528185b36bc6f
+Deleted: sha256:2073e0bcb60ee98548d313ead5eacbfe16d9054f8800a32bedd859922a99a6e1
+Deleted: sha256:a3136fbf38691346715cac8360bcdfca0fff812cede416469653670f04e2cab0
+Deleted: sha256:99360ffcb2da18fd9ede194efaf5d4b90e7aee99f45737e918113e6833dcf278
+Deleted: sha256:488dfecc21b1bc607e09368d2791cb784cf8c4ec5c05d2952b045b3e0f8cc01e
+(base) pauls-MacBook:code-server paulpaul$ docker image ls
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+ubuntu              latest              ccc6e87d482b        3 weeks ago         64.2MB
+hello-world         latest              fce289e99eb9        13 months ago       1.84kB
+(base) pauls-MacBook:code-server paulpaul$ 
+
+
+======================================
+
 
 
