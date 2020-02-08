@@ -1,0 +1,86 @@
+What Node.js Is
+Installing Node.js
+Using the REPL
+NPM - Node Package Manager
+How Modules Work
+package.json File
+Basic Webserver
+
+<hr>
+<hr>
+<a name="NODEJS">
+<div id="NODEJS">
+<p> NODEJS:<br>
+<a href=""> </A> |<br>
+<a href="https://www.youtube.com/watch?v=U8XF6AFGqlc&feature=youtu.be"> Node.js Tutorial For Absolute Beginners </A> |<br>
+<a href="https://www.youtube.com/watch?v=fBNz5xF-Kx4"> Node.js Crash Course </A> |<br>
+ 
+
+
+Node.JS = "JS runtime" (service) built on Chrome's V8 JS engine
+
+
+Good to know
+- JS Fundamentals (Objects, Arrays, Conditionals)
+- HTTP (status codes, headers)
+- JSON
+- Arrow Functions
+- Promises
+- MVC Pattern
+
+
+
+WHAT CAN WE BUILD?
+- REST API, Microservices & Backend Apps
+- Mongo DB apps
+- RT Services (Chat, Games)
+- CRUD Apps: Blogs, CMS, Social Apps, Shopping Carts
+- Utilities & Tools
+- Anything that is not CPU-intensive
+
+
+
+NPM (packate manager) - installs node programs/modules
+easy to specify and link dependencies
+modules get installed into the "node_modules" folder
+all dependencies are listed in a "package.json" file
+
+npm init
+npm install express       # install locally
+npm inatall -g nodemon    # installs globally
+
+const path = require(`path')
+const myFile = require(`./myFile')
+
+
+
+
+Core modules: path, fs, http, ...
+3rd party modules installed via NPM
+Popular modules
+- express - web dev frameworkframework
+- connect - extensible HTTP server 
+- socket.io - server side component for websockets
+- pug/jade - template engine inspired by HAML
+- mongo/mongoose - wrappers to interact with mongo DB
+- coffee-script - coffeeScript compiler
+- redits - redis client library
+
+============================
+download node.js pkg and install
+Node.js v 13.8.0 to /usr/local/bin/node
+npm v6.13.6 to /usr/local/bin/npm
+
+make sure that /usr/local/bin is in your $PATH
+echo $PATH
+
+node --version
+npm --version
+
+
+
+
+
+
+
+
