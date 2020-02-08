@@ -1,7 +1,12 @@
 
-docker version
-19.03.5
+docker version    #19.03.5
 
+docker info
+# Docker root dir /var/lib/docker
+
+
+docker images
+docker ps
 docker run hello-world
 
 (base) pauls-MacBook:code-server paulpaul$ docker run hello-world
