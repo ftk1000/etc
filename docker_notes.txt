@@ -38,3 +38,25 @@ For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 
 (base) pauls-MacBook:code-server paulpaul$ 
+
+========================================
+docker run -it ubuntu bash
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+5c939e3a4d10: Pull complete 
+c63719cdbe7a: Pull complete 
+19a861ea6baf: Pull complete 
+651c9d2d6c4f: Pull complete 
+Digest: sha256:8d31dad0c58f552e890d68bbfb735588b6b820a46e459672d96e585871acc110
+Status: Downloaded newer image for ubuntu:latest
+root@33b193ad88a1:/# uname -a
+Linux 33b193ad88a1 4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+root@33b193ad88a1:/# ls
+bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+root@33b193ad88a1:/# pwd
+
+========================================
+docker run --detach --publish=80:80 --name=webserver nginx
+http://localhost/
+
+
