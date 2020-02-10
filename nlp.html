@@ -66,11 +66,24 @@ https://app.slack.com/client/T040HKJE3/CH4JPJ4AD/thread/C04N3UMSL-1571514472.329
 <a href="#GPUGPU">GPUGPU</a> |
 <a href="#PYPY">PYPY</a> |
 <a href="#CRF">CRF</a> |
+<a href="#NODEJS">NODEJS</a> |
+<a href="#CODE_SERVER">CODE_SERVER</a> |
 
 
 
+<hr>
+<hr>
+<a name="NODEJS">
+<div id="NODEJS">
+<p> NODEJS:<br>
+
+<a href="https://www.youtube.com/watch?v=fBNz5xF-Kx4"> 2019.02: Node.js crash course  </a> |<br>
+<a href="https://www.youtube.com/watch?v=U8XF6AFGqlc&feature=youtu.be"> 2016.08: Node.js Tutorial For Absolute Beginners </a> |<br>
+====> Node.js <br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
+<a href=""> </A> |<br>
  
-
 
 
 
@@ -122,10 +135,7 @@ Arun Maiya: BERT Text Classification in 3 Lines of Code Using Keras, 2019.08 </A
 <a href=""> </A> |<br>
 <a href=""> </A> |<br>
 <a href=""> </A> |<br>
-<a href=""> </A> |<br>
-<a href=""> </A> |<br>
-<a href=""> </A> |<br>
-<a href=""> </A> |<br>
+<a href="https://github.com/malteos/pytorch-bert-document-classification"> https://github.com/malteos/pytorch-bert-document-classification</A> |<br>
 <a href=""> </A> |<br>
 
  <a href="https://arxiv.org/abs/1907.11692"> FB's RoBERTa paper </A> |<br>
@@ -239,9 +249,38 @@ python -m spacy download en<br>
 <a href="https://stackoverflow.com/questions/39081766/what-are-formatted-string-literals-in-python-3-6"> formatting in py3.6</A> |<br>
 <a href="https://www.youtube.com/watch?v=cwAors_xDA4"> Чем так крут Python — реальный пример. Продуманная архитектура Python</A> |<br>
 <a href=""> </A> |<br>
-<a href=""> </A> |<br>
-
-
+<a href="https://stackoverflow.com/questions/19560498/faster-way-to-remove-stop-words-in-python"> faster-way-to-remove-stop-words-in-python </A> |<br>
+<p>
+========> PROFILING PY CODE <p>
+Try caching the stopwords object, as shown below. Constructing this each 
+time you call the function seems to be the bottleneck.<br>
+<br>
+    from nltk.corpus import stopwords<br>
+<br>
+    cachedStopWords = stopwords.words("english")<br>
+<br>
+    def testFuncOld():<br>
+        text = 'hello bye the the hi'<br>
+        text = ' '.join([word for word in text.split() if word not in stopwords.words("english")])<br>
+<br>
+    def testFuncNew():<br>
+        text = 'hello bye the the hi'<br>
+        text = ' '.join([word for word in text.split() if word not in cachedStopWords])<br>
+<br>
+    if __name__ == "__main__":<br>
+        for i in xrange(10000):<br>
+            testFuncOld()<br>
+            testFuncNew()<br>
+I ran this through the profiler: python -m cProfile -s cumulative test.py. The relevant lines are posted below.<br>
+<br>
+nCalls Cumulative Time<br>
+<br>
+10000 7.723 words.py:7(testFuncOld)<br>
+<br>
+10000 0.140 words.py:11(testFuncNew)<br>
+<br>
+So, caching the stopwords instance gives a ~70x speedup.<br>
+<br>
 
 <hr>
 <hr>
@@ -620,11 +659,40 @@ pip install -U --pre tensorflow<br>
 <a href=""> </a> |<br>
 <a href=""> </a> |<br>
 <a href=""> </a> |<br>
-<a href=""> </a> |<br>
 
 </div>
 </a>
 
+<hr>
+<hr>
+<a name="CODE_SERVER">
+<div id="CODE_SERVER">
+<p> CODE_SERVER:<br>
+<a href="https://www.youtube.com/watch?v=ArygUBY0QXw&feature=youtu.be"> Abhishek Thakur Episode 1.1: Intro and building a machine learning framework </a> |<p>
+<a href="https://github.com/github/gitignore"> https://github.com/github/gitignore </a> |<br>
+<a href="https://github.com/github/gitignore/blob/master/Python.gitignore"> https://github.com/github/gitignore/blob/master/Python.gitignore </a> |<br>
+====> CODE SERVER by CODER.COM <p>
+<a href="https://github.com/cdr/code-server"> https://github.com/cdr/code-server </a> |<br>
+<a href="https://github.com/cdr/code-server/releases"> https://github.com/cdr/code-server/releases</a> |<br>
+<a href="https://www.youtube.com/watch?v=N5WojMutddQ"> 2019.01: Run VS Code in the browser with massive computing resources </a> |<br>
+<p>
+====> Code-Server on Digital Ocean<br>
+<a href="https://www.youtube.com/watch?v=UeP6VQjMw8Q"> 2019.04: How To Setup VSCode In The Cloud - code-server </a> |<br>
+<a href="https://cloud.digitalocean.com/projects/faf2f060-0311-4687-b24e-a32ba71ebc8b/resources?i=5af120"> Digital Ocean Droplet </a> |<br>
+1. make SSH connection to 142.93.251.226 (goto <a href="file:///C:/PUTTY_TOOLS/mtputty.exe"> file:///C:/PUTTY_TOOLS/mtputty.exe</a>) <br>
+2. cd to /root/vscode/code-server2.1698-vsc1.41.1-linux-x86_64 <br>
+3. run "./code-server" <br>
+4. from chrome access url: <a href="http://142.93.251.226:8080/">http://142.93.251.226:8080/</a> use password given by the ./code-server <p>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
 
 
 <hr>
@@ -632,11 +700,16 @@ pip install -U --pre tensorflow<br>
 <a name="KAGGLE">
 <div id="KAGGLE">
 <p> KAGGLE:<br>
-<a href="https://www.youtube.com/watch?v=ArygUBY0QXw&feature=youtu.be"> Abhishek Thakur Episode 1.1: Intro and building a machine learning framework </a> |<br>
-<a href="https://github.com/cdr/code-server"> https://github.com/cdr/code-server </a> |<br>
+<a href="https://www.youtube.com/watch?v=ArygUBY0QXw&feature=youtu.be"> Abhishek Thakur Episode 1.1: Intro and building a machine learning framework </a> |<p>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+<a href=""> </a> |<br>
+<br>
+
 <a href="https://github.com/github/gitignore"> https://github.com/github/gitignore </a> |<br>
 <a href="https://github.com/github/gitignore/blob/master/Python.gitignore"> https://github.com/github/gitignore/blob/master/Python.gitignore </a> |<br>
 <a href="https://www.youtube.com/watch?v=zcqgj-Udcqs"> Abhishek Thakur Episode 1.2: Building an inference for the machine learning framework</a> |<br>
+<a href=""> </a> |<br>
 <a href=""> </a> |<br>
 <a href=""> </a> |<br>
 <a href=""> </a> |<br>
@@ -1879,3 +1952,6 @@ Chervov:
 Data Scientist: кто нужен бизнесу и как их обучить | Виктор Кантор, Data Mining in Action </A> |<br>
 <a href=""> </A> |<br>
 <a href=""> </A> |<br>
+
+
+
