@@ -78,7 +78,12 @@ node --version
 npm --version
 
 
+=============================
+> mkdir node_crash_course
+> cd node_crash_course
 
+# 1st thing you want to do - create package.json file
+> npm init
 
 
 
