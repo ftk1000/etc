@@ -20,8 +20,8 @@ The CQI indices and their interpretations are given in Table 7.2.3-1 for reporti
 The CQI indices and their interpretations are given in Table 7.2.3-2 for reporting CQI based on QPSK, 16QAM, 64QAM and 256QAM.<br> 
 The CQI indices and their interpretations are given in Table 7.2.3-3 for reporting CQI based on QPSK and 16QAM. <br>
 
-5G SINR vs CQI curve is in [this paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6427249/pdf/sensors-19-01196.pdf)[1]<br>
-LTE SINR vs CQI curve is in [this paper](https://jwcn-eurasipjournals.springeropen.com/articles/10.1186/s13638-015-0388-0/tables/1)[2]<br>
+5G SNR vs CQI curve is in [this paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6427249/pdf/sensors-19-01196.pdf) (see table 5 in [1]) <br>
+LTE SINR vs CQI curve is in [this paper](https://jwcn-eurasipjournals.springeropen.com/articles/10.1186/s13638-015-0388-0/tables/1) (see Table 1 in [2]) <br>
 
 [1] "A Novel Link-to-System Mapping Technique Based on Machine Learning for 5G/IoT Wireless Networks", Eunmi Chu et al, Sensors, 2015 <br>
 [2] "Adaptive CSI and feedback estimation in LTE and beyond: a Gaussian process regression approach", Alessandro Chiumento et al, EURASIP Journal on Wireless Communications and Networking volume 2015, Article number: 168 (2015)
