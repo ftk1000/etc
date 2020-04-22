@@ -12,5 +12,7 @@ The MAC has to first decide on the modulation scheme that can be scheduled to th
 
 So after knowing the I_TBS and N_PRB, there shall be a table look up as specified in LTE phy specification 36.213, section 7.1.7.2.1, which will determine the transport block size for the current subframe for the user.
 
+[MCS/TBS Determination from sharetechnote.com](https://www.sharetechnote.com/html/Handbook_LTE_BL_MCS_TBS.html)
+
 
 
