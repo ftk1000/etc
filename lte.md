@@ -15,4 +15,13 @@ So after knowing the I_TBS and N_PRB, there shall be a table look up as specifie
 [MCS/TBS Determination from sharetechnote.com](https://www.sharetechnote.com/html/Handbook_LTE_BL_MCS_TBS.html)
 
 
+## CQI definition in TS23.213 sec 7.2.3
+[ts36.213 rel14](https://www.etsi.org/deliver/etsi_ts/136200_136299/136213/14.02.00_60/ts_136213v140200p.pdf)<br>
+The CQI indices and their interpretations are given in Table 7.2.3-1 for reporting CQI based on QPSK, 16QAM and 64QAM.<br> 
+The CQI indices and their interpretations are given in Table 7.2.3-2 for reporting CQI based on QPSK, 16QAM, 64QAM and 256QAM.<br> 
+The CQI indices and their interpretations are given in Table 7.2.3-3 for reporting CQI based on QPSK and 16QAM. <br>
+
+
+
+
 
