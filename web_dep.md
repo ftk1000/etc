@@ -2,7 +2,7 @@
 [Flask Tutorials y Corey Schafer](https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH)<br>
 
 [Jeff Heaton:flask and DL web service](https://youtu.be/H73m9XvKHug)<br>
-
+[deploy DL model using flask](https://youtu.be/CSEmUmkfb8Q)<br>
 [Krish Naik: Deploy Machine Learning Model using Flask](https://www.youtube.com/watch?v=UbCWoMf80PY)<br>
 [Krish Naik:Tutorial 3- Deployment of NLP Model in Heroku Cloud](https://www.youtube.com/watch?v=1umQhC2iWdY)<br>
 
