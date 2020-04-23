@@ -27,5 +27,7 @@ LTE SINR vs CQI curve is in [this paper](https://jwcn-eurasipjournals.springerop
 [2] "Adaptive CSI and feedback estimation in LTE and beyond: a Gaussian process regression approach", Alessandro Chiumento et al, EURASIP Journal on Wireless Communications and Networking volume 2015, Article number: 168 (2015)
 <br>
 
-
+## Papers
+[Inter-Cell Radio Frame Coordination Scheme Based
+on Sliding Codebook for 5G TDD Systems, by Esswie et al](https://arxiv.org/pdf/1902.02980.pdf)
 
