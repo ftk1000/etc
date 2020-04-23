@@ -17,7 +17,7 @@
 --------------------
 ## investing club
 [very good stock market analysis](https://youtu.be/FG-rqXqas8s)<br>
-[]()<br>
+[Daniel Pronk: 4 Oil Stocks to Watch After The Oil Collapse](https://www.youtube.com/watch?v=VLVbQBQfwzE)<br>
 []()<br>
 []()<br>
 
