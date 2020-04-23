@@ -3,7 +3,7 @@
 [Krish Naik: Deploy Machine Learning Model using Flask](https://www.youtube.com/watch?v=UbCWoMf80PY)<br>
 [Krish Naik:Tutorial 3- Deployment of NLP Model in Heroku Cloud](https://www.youtube.com/watch?v=1umQhC2iWdY)<br>
 
-[Pandas Data Reader - How to get Yahoo Stock Data](youtube.com/watch?v=v66K_y3-ezY)<br>
+[David: Pandas Data Reader - How to get Yahoo Stock Data](youtube.com/watch?v=v66K_y3-ezY)<br>
 
 [CS50 Lecture by Mark Zuckerberg - 7 December 2005](https://www.youtube.com/watch?v=xFFs9UgOAlE)<br>
 
