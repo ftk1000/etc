@@ -10,7 +10,7 @@
 
 The MAC has to first decide on the modulation scheme that can be scheduled to the user and then check the physical resource grid for availability of the resource blocks. From this step the MAC can decide upon the modulation and coding scheme index (I_MCS)  and then decide upon the number of resource blocks (N_PRB), that can be allocated to the user. After this step the transport block size index (I_TBS) is derived from the look up table as specified in the LTE phy specification 36.213 sec 7.1.7.1 for downlink and sec 8.6.1 for uplink.
 
-So after knowing the I_TBS and N_PRB, there shall be a table look up as specified in LTE phy specification 36.213, section 7.1.7.2.1, which will determine the transport block size for the current subframe for the user.
+So after knowing the I_TBS and N_PRB, there shall be a table look up as specified in [LTE phy specification 36.213, section 7.1.7.2.1](https://www.etsi.org/deliver/etsi_ts/136200_136299/136213/12.03.00_60/ts_136213v120300p.pdf) , which will determine the transport block size for the current subframe for the user.
 
 [MCS/TBS Determination from sharetechnote.com](https://www.sharetechnote.com/html/Handbook_LTE_BL_MCS_TBS.html)
 
