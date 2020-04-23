@@ -14,6 +14,12 @@
 []()<br>
 []()<br>
 []()<br>
+--------------------
+## investing club
+[very good stock market analysis](https://youtu.be/FG-rqXqas8s)<br>
+[]()<br>
+[]()<br>
+[]()<br>
 
 
 
