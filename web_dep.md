@@ -10,8 +10,9 @@
 
 [CS50 Lecture by Mark Zuckerberg - 7 December 2005](https://www.youtube.com/watch?v=xFFs9UgOAlE)<br>
 
-[5G-NR : Throughput Calculation-1 #Part-9](https://www.youtube.com/watch?v=c5Ve1yJUGqc)<br>
-[]()<br>
+##LTE
+[5G-NR : Throughput Calculation-1 Part-9](https://www.youtube.com/watch?v=c5Ve1yJUGqc)<br>
+[LTE data rate calculations - good](https://www.youtube.com/watch?v=7bvmAMbTkNY)<br>
 []()<br>
 []()<br>
 --------------------
