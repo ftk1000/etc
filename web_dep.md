@@ -1,5 +1,5 @@
 ## BERT
-[]()<br>
+[Chris McCormik: Fine tuning BERT](http://mccormickml.com/2019/07/22/BERT-fine-tuning/)<br>
 [Chris McCormik: XLNet fine tuning](https://mccormickml.com/2019/09/19/XLNet-fine-tuning/)<br>
 []()<br>
 []()<br>
