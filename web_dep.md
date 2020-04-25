@@ -32,7 +32,7 @@
 [very good stock market analysis](https://youtu.be/FG-rqXqas8s)<br>
 [Daniel Pronk: 4 Oil Stocks to Watch After The Oil Collapse](https://www.youtube.com/watch?v=VLVbQBQfwzE)<br>
 [Forbes: lessons of 1931 crash](https://www.forbes.com/sites/robisbitts2/2020/04/23/4-things-the-great-depression-teaches-us-about-todays-stock-market/#31773182402d)<br>
-[]()<br>
+[2019.05: Charlie Munger's advice on investing and life choices that make a person wealthy](https://www.youtube.com/watch?v=RFxXl9eAWV4&feature=emb_rel_pause)<br>
 []()<br>
 []()<br>
 []()<br>
