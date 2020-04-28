@@ -1,4 +1,4 @@
-## BERT
+## BERT - CAN:Classification, NER, PoS, Q&A -- CAN NOT: Lang Modeling, Text Gen, Translation
 [Chris McCormik blog: Fine tuning BERT](http://mccormickml.com/2019/07/22/BERT-fine-tuning/)<br>
 [Chris McCormik blog: XLNet fine tuning](https://mccormickml.com/2019/09/19/XLNet-fine-tuning/)<br>
 [YT Chris McCormik: BERT Research - Ep. 3 - Fine Tuning - p.1](https://www.youtube.com/watch?v=x66kkDnbzi4&list=PLam9sigHPGwOBuH4_4fr-XvDbe5uneaf6)<br>
