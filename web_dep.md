@@ -37,7 +37,7 @@
 [Forbes: lessons of 1931 crash](https://www.forbes.com/sites/robisbitts2/2020/04/23/4-things-the-great-depression-teaches-us-about-todays-stock-market/#31773182402d)<br>
 [2019.05: Charlie Munger's advice on investing and life choices that make a person wealthy](https://www.youtube.com/watch?v=RFxXl9eAWV4&feature=emb_rel_pause)<br>
 [YT 2019.01.17: Jack Bogle on Index Funds, Vanguard, and Investing Advice](https://www.youtube.com/watch?v=MLgn_kVKjCE)<br>
-[]()<br>
+[YT:2019.05.02: Warren Buffett reveals his investment strategy and mastering the market](https://www.youtube.com/watch?v=SEZwkbliJr8<br>
 []()<br>
 []()<br>
 []()<br>
