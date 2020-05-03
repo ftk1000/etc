@@ -5,6 +5,8 @@
 
 [5G bands](http://anisimoff.org/eng/5g/5g_spectrum.html)
 
+[LTE Toolbox: lteCQISelect function - TS36.101 Sec.9.3.2.1.1  (for FDD)](https://www.etsi.org/deliver/etsi_ts/136100_136199/136101/15.03.00_60/ts_136101v150300p.pdf)<br>
+[5G Toolbox: CQI Calculation defined in TS38.214 Sec.5.2.2 Table Table 5.2.2.1-2/3/4 CQI is calculated over a clustered delayed line (CDL)channel](https://www.etsi.org/deliver/etsi_ts/138200_138299/138214/15.03.00_60/ts_138214v150300p.pdf)<br>
 
 
 
