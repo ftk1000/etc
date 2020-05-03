@@ -39,7 +39,7 @@
 [YT 2019.01.17: Jack Bogle on Index Funds, Vanguard, and Investing Advice](https://www.youtube.com/watch?v=MLgn_kVKjCE)<br>
 [YT:2019.05.02: Warren Buffett reveals his investment strategy and mastering the market](https://www.youtube.com/watch?v=SEZwkbliJr8)<br>
 [YT:2020.04.30: El-Erian: We will have the worst recession since the Great Depression](https://www.youtube.com/watch?v=G9HvukE56yM)<br>
-[]()<br>
+[YT:2020.05.02: Warren Buffett: 'Never bet against America'](https://www.youtube.com/watch?v=y5rr1RPdcyM)<br>
 []()<br>
 []()<br>
 
