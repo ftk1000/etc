@@ -8,7 +8,7 @@
 [http://anisimoff.org/eng/lte_throughput.html](http://anisimoff.org/eng/lte_throughput.html)<br>
 
 ### Slot Formats
-[5G-NR-Slot-Formats  (www.rfwireless-world.com) ](https://www.rfwireless-world.com/5G/5G-NR-Slot-Formats.html)<br>
+[5G-NR-Slot-Formats  (www.rfwireless-world.com) per TS 38.200](https://www.rfwireless-world.com/5G/5G-NR-Slot-Formats.html)<br>
 
 [LTE freq bands](http://anisimoff.org/eng/lte_bands.html)
 
