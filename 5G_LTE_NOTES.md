@@ -24,6 +24,33 @@
 
 ### CORE SETS
 [5G-NR-CORESET](https://www.rfwireless-world.com/5G/5G-NR-CORESET.html)<br>
+- DL Sec 7
+- PDCCH Sec 7.3.2
+- CORESETS Sec 7.3.2.2
+
+
+
+### LTE 
+[LTE Bands:  E-UTRA operating bands see Table 5.5-1 in TS 36.101](https://www.etsi.org/deliver/etsi_ts/136100_136199/136101/15.03.00_60/ts_136101v150300p.pdf)<br>
+[]()<>
+[]()<>
+[]()<>
+[]()<>
+[]()<>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
