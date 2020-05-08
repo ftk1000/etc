@@ -1,9 +1,10 @@
 
 ### Max LTE/NR data rates
+[4G Speed Calculator by Jake](https://tools.pedroc.co.uk/4g-speed/)<br>
+[5G Speed Calculator by Jake](https://tools.pedroc.co.uk/5g-speed/)<br>
 [YT: 5G NR FDD Tput per TS 38.306 v15.2.0](https://www.youtube.com/watch?v=Yv3Qc2GMceQ&feature=youtu.be)<br>
 [ETSI TS 38.306 Ver15.05 (Max Data Rate Sec 4.1.2)](https://www.etsi.org/deliver/etsi_ts/138300_138399/138306/15.05.00_60/ts_138306v150500p.pdf)<br>
 
-[4G Speed Calculator by Jake](https://tools.pedroc.co.uk/4g-speed/)<br>
 [http://anisimoff.org/eng/lte_throughput.html](http://anisimoff.org/eng/lte_throughput.html)<br>
 
 [LTE freq bands](http://anisimoff.org/eng/lte_bands.html)
@@ -13,7 +14,8 @@
 [LTE Toolbox: lteCQISelect function - TS36.101 Sec.9.3.2.1.1  (for FDD)](https://www.etsi.org/deliver/etsi_ts/136100_136199/136101/15.03.00_60/ts_136101v150300p.pdf)<br>
 [5G Toolbox: CQI Calculation defined in TS38.214 Sec.5.2.2 Table Table 5.2.2.1-2/3/4 CQI is calculated over a clustered delayed line (CDL)channel](https://www.etsi.org/deliver/etsi_ts/138200_138299/138214/15.03.00_60/ts_138214v150300p.pdf)<br>
 
-
+### CORE SETS
+[5G-NR-CORESET](https://www.rfwireless-world.com/5G/5G-NR-CORESET.html)<br>
 
 
 <a name="5G5G">
