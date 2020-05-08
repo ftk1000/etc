@@ -7,6 +7,9 @@
 
 [http://anisimoff.org/eng/lte_throughput.html](http://anisimoff.org/eng/lte_throughput.html)<br>
 
+### Slot Formats
+[5G-NR-Slot-Formats  (www.rfwireless-world.com) ](https://www.rfwireless-world.com/5G/5G-NR-Slot-Formats.html)<br>
+
 [LTE freq bands](http://anisimoff.org/eng/lte_bands.html)
 
 [5G bands](http://anisimoff.org/eng/5g/5g_spectrum.html)
@@ -16,6 +19,8 @@
 
 ### CORE SETS
 [5G-NR-CORESET](https://www.rfwireless-world.com/5G/5G-NR-CORESET.html)<br>
+
+
 
 
 <a name="5G5G">
