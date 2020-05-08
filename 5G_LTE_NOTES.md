@@ -1,3 +1,8 @@
+### 5G NR Physical layer
+[5G NR Phy General descr - TS 38.201](https://www.etsi.org/deliver/etsi_ts/138200_138299/138201/15.00.00_60/ts_138201v150000p.pdf)<br>
+[Frame Staructure - see Sec 4 in  TS 38.211: Physical channels and modulation ](https://www.etsi.org/deliver/etsi_ts/138200_138299/138211/15.02.00_60/ts_138211v150200p.pdf)<br>
+
+
 
 ### Max LTE/NR data rates
 [4G Speed Calculator by Jake](https://tools.pedroc.co.uk/4g-speed/)<br>
