@@ -1,7 +1,7 @@
 
-# Max datarates
+### Max LTE/NR data rates
 [YT: 5G NR FDD Tput per TS 38.306 v15.2.0](https://www.youtube.com/watch?v=Yv3Qc2GMceQ&feature=youtu.be)<br>
-[4G Speed Calculator by Jake: ](https://tools.pedroc.co.uk/4g-speed/)<br>
+[4G Speed Calculator by Jake](https://tools.pedroc.co.uk/4g-speed/)<br>
 [http://anisimoff.org/eng/lte_throughput.html](http://anisimoff.org/eng/lte_throughput.html)<br>
 
 [LTE freq bands](http://anisimoff.org/eng/lte_bands.html)
