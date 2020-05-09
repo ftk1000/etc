@@ -29,7 +29,7 @@
 [5G Toolbox: CQI Calculation defined in TS38.214 Sec.5.2.2 Table Table 5.2.2.1-2/3/4 CQI is calculated over a clustered delayed line (CDL)channel](https://www.etsi.org/deliver/etsi_ts/138200_138299/138214/15.03.00_60/ts_138214v150300p.pdf)<br>
 
 ### CORE SETS
-[5G-NR-CORESET](https://www.rfwireless-world.com/5G/5G-NR-CORESET.html)<br>
+[rfwireless-world.com: 5G-NR-CORESET](https://www.rfwireless-world.com/5G/5G-NR-CORESET.html)<br>
 - DL Sec 7
 - PDCCH Sec 7.3.2
 - CORESETS Sec 7.3.2.2
