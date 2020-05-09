@@ -52,7 +52,8 @@
 
 
 
-
+### RESEARCH PAPERS
+- [Inter-Cell Radio Frame Coordination Scheme Based on Sliding Codebook for 5G TDD Systems by Ali A. Esswie et al]  (https://arxiv.org/pdf/1902.02980.pdf)
 
 
 
