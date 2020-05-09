@@ -1,7 +1,10 @@
 ### 5G NR Physical layer
 [5G NR Phy General descr - TS 38.201](https://www.etsi.org/deliver/etsi_ts/138200_138299/138201/15.00.00_60/ts_138201v150000p.pdf)<br>
 [Frame Staructure - see Sec 4 in  TS 38.211: Physical channels and modulation ](https://www.etsi.org/deliver/etsi_ts/138200_138299/138211/15.02.00_60/ts_138211v150200p.pdf)<br>
-
+[nomor 2017: 5G Frame Structure](http://nomor.de/wp-content/uploads/2018/04/2017-08-WhitePaperNomor-5G-Frame-Structure-v1-2.pdf)<br>
+[Rohde & Schwarz: 5G overview](https://cdn.rohde-schwarz.com/it/seminario/hi_technology_forum/Sibila_5G_Mobile_Technologies_and_the_way_to_5G.pdf)<br>
+[]()<br>
+[]()<br>
 
 
 ### Max LTE/NR data rates
@@ -11,6 +14,9 @@
 [ETSI TS 38.306 Ver15.05 (Max Data Rate Sec 4.1.2)](https://www.etsi.org/deliver/etsi_ts/138300_138399/138306/15.05.00_60/ts_138306v150500p.pdf)<br>
 
 [http://anisimoff.org/eng/lte_throughput.html](http://anisimoff.org/eng/lte_throughput.html)<br>
+[Maximum Downlink Throughput values can you achieve in LTE TDD](http://www.techtrained.com/what-semi-theoretical-maximum-downlink-throughput-values-can-you-achieve-in-lte-tdd-for-coding-rate-1/) <br>
+
+
 
 ### Slot Formats
 [5G-NR-Slot-Formats  (www.rfwireless-world.com) per TS 38.200](https://www.rfwireless-world.com/5G/5G-NR-Slot-Formats.html)<br>
