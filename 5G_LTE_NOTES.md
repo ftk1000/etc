@@ -4,6 +4,8 @@
 [nomor 2017: 5G Frame Structure](http://nomor.de/wp-content/uploads/2018/04/2017-08-WhitePaperNomor-5G-Frame-Structure-v1-2.pdf)<br>
 [Rohde & Schwarz: 5G overview](https://cdn.rohde-schwarz.com/it/seminario/hi_technology_forum/Sibila_5G_Mobile_Technologies_and_the_way_to_5G.pdf)<br>
 []()<br>
+[rfwireless-world.com: 5G-NR-Numerology](https://www.rfwireless-world.com/5G/5G-NR-Numerology-or-Terminology.html)<br>
+[]()<br>
 []()<br>
 
 
