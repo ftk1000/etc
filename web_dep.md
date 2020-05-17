@@ -5,7 +5,7 @@
 [Traversy Media 1.1M subscribers](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)<br>
 [Data Driven Maps With Python Folium & Leaflet.js](https://www.youtube.com/watch?v=4RnU5qKTfYY)<br>
 [folium quickstart](https://python-visualization.github.io/folium/quickstart.html)<br>
-[https://github.com/lvoogdt/Leaflet.awesome-markers]()<br>
+[GOOD SVG ICONS BUT HOW TO USE THEM ???  https://github.com/lvoogdt/Leaflet.awesome-markers](https://github.com/lvoogdt/Leaflet.awesome-markers)<br>
 [Folium Examples](https://github.com/python-visualization/folium/tree/master/examples)<br>
 []()<br>
 []()<br>
