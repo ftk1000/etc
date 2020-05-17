@@ -27,6 +27,19 @@
 []()<br>
 []()<br>
 
+
+## AI
+[YT: Breakout | DeepMind | WIRED](https://www.youtube.com/watch?v=Q70ulPJW3Gk)<br>
+[DeepMind: inside Google's super-brain](https://www.wired.co.uk/article/deepmind)<br>
+[]()<br>
+[]()<br>
+[]()<br>
+[]()<br>
+
+
+
+
+
 ## Flask
 [https://www.youtube.com/user/schafer5](https://www.youtube.com/user/schafer5)<br>
 [Flask Tutorials y Corey Schafer](https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH)<br>
