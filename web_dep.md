@@ -7,6 +7,8 @@
 [folium quickstart](https://python-visualization.github.io/folium/quickstart.html)<br>
 [GOOD SVG ICONS BUT HOW TO USE THEM ???  https://github.com/lvoogdt/Leaflet.awesome-markers](https://github.com/lvoogdt/Leaflet.awesome-markers)<br>
 [Folium Examples](https://github.com/python-visualization/folium/tree/master/examples)<br>
+[Folium Legend Example](https://medium.com/@bobhaffner/creating-a-legend-for-a-folium-map-c1e0ffc34373)<br>
+[]()<br>
 []()<br>
 []()<br>
 
