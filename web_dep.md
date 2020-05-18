@@ -10,6 +10,11 @@
 [Folium Legend Example](https://medium.com/@bobhaffner/creating-a-legend-for-a-folium-map-c1e0ffc34373)<br>
 []()<br>
 []()<br>
+
+## PlotNine examples (search for 'python plotnine multifaceted plot')
+[plotnine-grammar-of-graphics-for-python](https://www.datascienceworkshops.com/blog/plotnine-grammar-of-graphics-for-python/)<br>
+[https://plotnine.readthedocs.io/en/stable/](https://plotnine.readthedocs.io/en/stable/)<br>
+[Making Plots With plotnine](https://datacarpentry.org/python-ecology-lesson/07-visualization-ggplot-python/index.html)<br>
 []()<br>
 
 ## Programming and WebDev
