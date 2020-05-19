@@ -90,7 +90,7 @@
 [сын Сергея и Веры, который знает 10+ языков](https://languages.alexandresmirnov.com/getting-started-with-french/ )<br>
 [COURSERA:Étudier en France: French Intermediate course B1-B2](https://www.coursera.org/learn/etudier-en-france)<br>
 [COURSERA:Miracles of Human Language: An Introduction to Linguistics](https://www.coursera.org/learn/human-language)<br>
-[]()<br>
+[Vera's site](https://asktravelpro.com/travel-communications/)<br>
 []()<br>
 []()<br>
 
