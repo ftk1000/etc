@@ -94,8 +94,8 @@
 
 # Python
 [COURSERA: Applied data-science-python](https://www.coursera.org/specializations/data-science-python)<br>
-[C:python-text-mining](https://www.coursera.org/learn/python-text-mining/home/week/1)<br>
-[]()<br>
+[C-RA:python-text-mining](https://www.coursera.org/learn/python-text-mining/home/week/1)<br>
+[C-RA:python-text-mining wk1](https://www.coursera.org/learn/python-text-mining/home/week/1)<br>
 []()<br>
 []()<br>
 
