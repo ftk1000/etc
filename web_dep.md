@@ -91,6 +91,11 @@
 [COURSERA:Étudier en France: French Intermediate course B1-B2](https://www.coursera.org/learn/etudier-en-france)<br>
 [COURSERA:Miracles of Human Language: An Introduction to Linguistics](https://www.coursera.org/learn/human-language)<br>
 [Vera's site](https://asktravelpro.com/travel-communications/)<br>
+
+# Python
+[COURSERA: Applied data-science-python](https://www.coursera.org/specializations/data-science-python)<br>
+[C:python-text-mining](https://www.coursera.org/learn/python-text-mining/home/week/1)<br>
+[]()<br>
 []()<br>
 []()<br>
 
