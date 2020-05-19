@@ -83,8 +83,20 @@
 []()<br>
 []()<br>
 []()<br>
+
+## Classes
+[COURSERA:named-entity-recognition-lstm-keras-tensorflow](https://www.coursera.org/projects/named-entity-recognition-lstm-keras-tensorflow)<br>
+[COURSERA:big-data-language](https://www.coursera.org/learn/big-data-language-1/home/info)<br>
+[сын Сергея и Веры, который знает 10+ языков](https://languages.alexandresmirnov.com/getting-started-with-french/ )<br>
+[COURSERA:Étudier en France: French Intermediate course B1-B2](https://www.coursera.org/learn/etudier-en-france)<br>
+[COURSERA:Miracles of Human Language: An Introduction to Linguistics](https://www.coursera.org/learn/human-language)<br>
 []()<br>
 []()<br>
+[]()<br>
+
+
+
+
 
 
 
