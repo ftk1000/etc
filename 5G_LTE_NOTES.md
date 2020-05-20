@@ -10,6 +10,8 @@
 
 
 ### Max LTE/NR data rates
+[5g-tools.com::5g-nr-throughput-calculator](https://5g-tools.com/5g-nr-throughput-calculator/)<br>
+[PAPER ON 5G KPIS::BMSB_2019_Paper_SEUK_UPV](http://5g-xcast.eu/wp-content/uploads/2019/09/BMSB_2019_Paper_SEUK_UPV.pdf)<br>
 [4G Speed Calculator by Jake](https://tools.pedroc.co.uk/4g-speed/)<br>
 [5G Speed Calculator by Jake](https://tools.pedroc.co.uk/5g-speed/)<br>
 [YT: 5G NR FDD Tput per TS 38.306 v15.2.0](https://www.youtube.com/watch?v=Yv3Qc2GMceQ&feature=youtu.be)<br>
