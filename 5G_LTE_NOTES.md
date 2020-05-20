@@ -7,18 +7,25 @@
 [rfwireless-world.com: 5G-NR-Numerology](https://www.rfwireless-world.com/5G/5G-NR-Numerology-or-Terminology.html)<br>
 []()<br>
 []()<br>
+[]()<br>
+[]()<br>
 
 
 ### Max LTE/NR data rates
+[5g-tools.com::Tools for 5G RF/](https://5g-tools.com/)<br>
 [5g-tools.com::5g-nr-throughput-calculator](https://5g-tools.com/5g-nr-throughput-calculator/)<br>
 [PAPER ON 5G KPIS::BMSB_2019_Paper_SEUK_UPV](http://5g-xcast.eu/wp-content/uploads/2019/09/BMSB_2019_Paper_SEUK_UPV.pdf)<br>
 [4G Speed Calculator by Jake](https://tools.pedroc.co.uk/4g-speed/)<br>
 [5G Speed Calculator by Jake](https://tools.pedroc.co.uk/5g-speed/)<br>
 [YT: 5G NR FDD Tput per TS 38.306 v15.2.0](https://www.youtube.com/watch?v=Yv3Qc2GMceQ&feature=youtu.be)<br>
 [ETSI TS 38.306 Ver15.05 (Max Data Rate Sec 4.1.2)](https://www.etsi.org/deliver/etsi_ts/138300_138399/138306/15.05.00_60/ts_138306v150500p.pdf)<br>
+[]()<br>
 
 [http://anisimoff.org/eng/lte_throughput.html](http://anisimoff.org/eng/lte_throughput.html)<br>
 [Maximum Downlink Throughput values can you achieve in LTE TDD](http://www.techtrained.com/what-semi-theoretical-maximum-downlink-throughput-values-can-you-achieve-in-lte-tdd-for-coding-rate-1/) <br>
+[]()<br>
+[]()<br>
+[]()<br>
 
 
 
