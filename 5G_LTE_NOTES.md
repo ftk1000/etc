@@ -64,8 +64,10 @@
 
 
 ### RESEARCH PAPERS
-- [Inter-Cell Radio Frame Coordination Scheme Based on Sliding Codebook for 5G TDD Systems by Ali A. Esswie et al]  (https://arxiv.org/pdf/1902.02980.pdf)
-
+[Inter-Cell Radio Frame Coordination Scheme Based on Sliding Codebook for 5G TDD Systems by Ali A. Esswie et al]  (https://arxiv.org/pdf/1902.02980.pdf)<br>
+[IMT-2020 Key Performance Indicators: Evaluation and Extension Towards 5G New Radio Point-to-Multipoint Jose Luis Carcel](http://5g-xcast.eu/wp-content/uploads/2019/09/BMSB_2019_Paper_SEUK_UPV.pdf)<br>
+[]()<br>
+[]()<br>
 
 
 
