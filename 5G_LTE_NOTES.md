@@ -69,8 +69,11 @@
 
 
 
-
-
+### Reinforcement Learning
+[Deep Reinforcement Learning for Scheduling in Cellular Networks, by Jian Wang et al](https://arxiv.org/pdf/1905.05914.pdf)<br>
+[Cellular Network Traffic Scheduling with Deep Reinforcement Learning, by Sandeep Chinchali](http://asl.stanford.edu/wp-content/papercite-data/pdf/Chinchali.ea.AAAI18.pdf)<br>
+[]()<br>
+[]()<br>
 
 
 <a name="5G5G">
