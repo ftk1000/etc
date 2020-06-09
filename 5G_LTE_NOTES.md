@@ -1,5 +1,8 @@
 
-[CA and LB](https://www.awardsolutions.com/portal/ilt/lte-rf-optimization-part-iv-carrier-aggregation-and-load-balancing)<br>
+[award sols: CA and LB](https://www.awardsolutions.com/portal/ilt/lte-rf-optimization-part-iv-carrier-aggregation-and-load-balancing)<br>
+[Load Balancing Optimization in LTE/LTE-A Cellular Networks: A Review](https://arxiv.org/pdf/1412.7273.pdf)<br>
+[load-balancing-in-heterogeneous-lte ///](https://www.ericsson.com/en/reports-and-papers/research-papers/load-balancing-in-heterogeneous-lte-range-optimization-via-cell-offset-and-load-coupling-characterization)<br>
+[ieee: advanced load balancing](https://ieeexplore.ieee.org/document/6362842)<br>
 []()<br>
 []()<br>
 []()<br>
