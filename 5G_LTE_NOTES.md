@@ -115,6 +115,8 @@
 <a href="https://www.youtube.com/watch?v=xGkyZw98Tug"> Basics of Antennas and Beamforming - Massive MIMO Networks </A> |<br>
 <a href="https://www.youtube.com/watch?v=tw0yD65viVI"> Three Benefits of Using Multiple Antenna in Communications [Video 2] </A> |<br>
 <a href="https://www.youtube.com/watch?v=spUNpyF58BY"> But what is the Fourier Transform? A visual introduction </A> |<br>
+<a href="http://www.sengpielaudio.com/calculator-db.htm"> dB <==> RATIO </A> |<br>
+<a href=""> </A> |<br>
 <a href=""> </A> |<br>
 <a href=""> </A> |<br>
 
