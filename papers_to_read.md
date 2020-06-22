@@ -17,15 +17,16 @@ David Lopez-Paz, Léon Bottou, Bernhard Schölkopf, Vladimir Vapnik](https://arx
 
 []()<br>
 
-# OTHER GOOD STUFF
+# OTHER STUFF
 ### Weight of Evidence(WOE) & Information Value(IV)
 
 [Deepanshu Bhalla: WEIGHT OF EVIDENCE (WOE) AND INFORMATION VALUE (IV) EXPLAINED](https://www.listendata.com/2015/03/weight-of-evidence-woe-and-information.html)<br>
-[]()<br>
 [Weight of Evidence(WOE) & Information Value(IV)](https://www.kaggle.com/pavansanagapati/weight-of-evidence-woe-information-value-iv)<br>
 [Attribute Relevance Analysis in Python — IV and WoE by Dario Radeč](https://towardsdatascience.com/attribute-relevance-analysis-in-python-iv-and-woe-b5651443fc04)<br>
 []()<br>
 []()<br>
+[]()<br>
+
 []()<br>
 
 
