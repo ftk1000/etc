@@ -19,9 +19,9 @@ David Lopez-Paz, Léon Bottou, Bernhard Schölkopf, Vladimir Vapnik](https://arx
 
 # OTHER GOOD STUFF
 ### Weight of Evidence(WOE) & Information Value(IV)
-[Weight of Evidence(WOE) & Information Value(IV)] (https://www.kaggle.com/pavansanagapati/weight-of-evidence-woe-information-value-iv) <br>
 
-[]()<br>
+
+[Weight of Evidence(WOE) & Information Value(IV)](https://www.kaggle.com/pavansanagapati/weight-of-evidence-woe-information-value-iv)<br>
 
 
 
