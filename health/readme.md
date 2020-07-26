@@ -19,8 +19,14 @@ HEALTH
 [Тестостерон после 40 лет. Нужна ли заместительная терапия?](https://www.youtube.com/watch?v=8p-gngL_Eos)<br>
 [Petrik: narushenie potencii](https://youtu.be/lg2GGDFqGmc)<br>
 [Petrik: how to increase Testosterone (the primary male sex hormone and anabolic steroid)](https://youtu.be/KTcKOwMX7ew)<br>
+[Как повысить тестостерон естественным путем. Что работает, а что нет.](https://www.youtube.com/watch?v=KTcKOwMX7ew&feature=youtu.be)<br>
+* силовые спортивные нагрузки
+* полноценный сон
+* отсутствие стресса
+* похудение
+* приём витамина Д и Цинка
+
 [Biking and prostate](https://youtu.be/fUvmxQaWVbE)<br>
-[]()<br>
 []()<br>
 []()<br>
 []()<br>
