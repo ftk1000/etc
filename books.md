@@ -1,14 +1,15 @@
 
 # TRAVEL
 
-## Джон Кокрен [2014: Рассказ о пешем путешествии по России... Джон Кокрен. Часть 2](http://prochital.blogspot.com/2014/04/2.html)<br>
+## [2014: Рассказ о пешем путешествии по России... Джон Кокрен. Часть 2](http://prochital.blogspot.com/2014/04/2.html)<br>
 <details>
-  <summary> Ep.1 Key Concepts & Sources (2019.11)<br>    </summary>
-    - https://www.youtube.com/watch?v=FKlPCK1uFrc&list=PLam9sigHPGwOBuH4_4fr-XvDbe5uneaf6 <br>
-    - BERT <- Transformer <- [LSTM w/ Attention] <- [Encoder/Decoder + Bi-LSTM] <- [RNN + LSTM]<br>
-    - Bogus tasks: (1) Masked Language Model, (2) Next Sentence Prediction
+  <summary> Notes   </summary>
+    - http://prochital.blogspot.com/2014/04/2.html <br>
+    -  Продажность уважают во всех уголках света <br>
+    - На Урале и уровень жизни не тот, что в Европе. Крепостные рабочие, работающие у богатого хозяина, могу получать очень неплохие деньги. Скажем, на екатеринбургских заводах Яковлева, по словам Кокрена, бригадир (overseer) получает до двух тысяч фунтов в год!<br>
+    - Тобольск благодаря этому обстоятельству оказывается цивилизованным и высокообразованным городом<br>
 </details>
-
+ 
 []()<br>
 []()<br>
 []()<br>
