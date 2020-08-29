@@ -11,6 +11,7 @@
  
 <details>
   <summary> Урожаи и посевы, философская автобиография Гротендика  </summary>
+    - http://flibusta.is/b/496890/read#t6 <br>
     - http://prochital.blogspot.com/2014/ <br>
     - О том, как важно быть одному 
   
