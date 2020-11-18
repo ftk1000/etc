@@ -28,9 +28,9 @@
  
  
  
-[]()<br>
-[]()<br>
-[]()<br>
+[Как хотели сбить самолет Путина?](https://yandex.ru/video/preview/?source=related_videohub&numdoc=20&url=https://frontend.vh.yandex.ru/player/7204057347909026003&text=%D0%9A%D0%B0%D0%BA+%D1%85%D0%BE%D1%82%D0%B5%D0%BB%D0%B8+%D1%81%D0%B1%D0%B8%D1%82%D1%8C+%D1%81%D0%B0%D0%BC%D0%BE%D0%BB%D0%B5%D1%82+%D0%9F%D1%83%D1%82%D0%B8%D0%BD%D0%B0%3F)<br>
+[26-27-richest-congressional-districts-represented-democrats](https://cnsnews.com/article/washington/terence-p-jeffrey/26-27-richest-congressional-districts-represented-democrats)<br>
+[Железный крест (Cross of Iron 1977)](https://ok.ru/video/46108969689)<br>
 []()<br>
 []()<br>
 
